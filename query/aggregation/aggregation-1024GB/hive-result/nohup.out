@@ -1,0 +1,943 @@
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 9baead2c-e2e4-4611-a194-a6c99b9ed648
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 48010f86-f3fd-47b9-83d8-fae5668c41af
+OK
+Time taken: 0.667 seconds
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing datanode1 for the benchmark
+Preparing datanode2 for the benchmark
+Preparing datanode3 for the benchmark
+Preparing datanode4 for the benchmark
+Preparing datanode5 for the benchmark
+Preparing namenode for the benchmark
+
+>>> STARTING HIVE AGGREGATION: Sun Jul  3 10:51:26 UTC 2022 (1656845486)
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = c4f37c4e-686b-463e-9b44-1a034ef48ba2
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = a28f9516-9beb-4337-bdda-54ee4ede2ad1
+Query ID = root_20220703105136_ad3dc208-ac92-49e1-8533-57145c9e2413
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 1009
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1655196875471_0190, Tracking URL = http://namenode:8088/proxy/application_1655196875471_0190/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1655196875471_0190
+Hadoop job information for Stage-1: number of mappers: 2792; number of reducers: 1009
+2022-07-03 10:51:48,238 Stage-1 map = 0%,  reduce = 0%
+2022-07-03 10:52:39,140 Stage-1 map = 1%,  reduce = 0%, Cumulative CPU 701.56 sec
+2022-07-03 10:53:32,976 Stage-1 map = 2%,  reduce = 0%, Cumulative CPU 1553.52 sec
+2022-07-03 10:54:14,393 Stage-1 map = 3%,  reduce = 0%, Cumulative CPU 2326.26 sec
+2022-07-03 10:55:15,139 Stage-1 map = 4%,  reduce = 0%, Cumulative CPU 3324.42 sec
+2022-07-03 10:56:01,562 Stage-1 map = 5%,  reduce = 0%, Cumulative CPU 4044.97 sec
+2022-07-03 10:56:43,964 Stage-1 map = 6%,  reduce = 0%, Cumulative CPU 4819.64 sec
+2022-07-03 10:57:41,748 Stage-1 map = 7%,  reduce = 0%, Cumulative CPU 5784.47 sec
+2022-07-03 10:58:34,394 Stage-1 map = 8%,  reduce = 0%, Cumulative CPU 6636.61 sec
+2022-07-03 10:59:12,597 Stage-1 map = 9%,  reduce = 0%, Cumulative CPU 7247.98 sec
+2022-07-03 11:00:06,220 Stage-1 map = 10%,  reduce = 0%, Cumulative CPU 8159.39 sec
+2022-07-03 11:01:01,003 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 9060.87 sec
+2022-07-03 11:01:50,520 Stage-1 map = 12%,  reduce = 0%, Cumulative CPU 9906.57 sec
+2022-07-03 11:02:39,011 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 10676.62 sec
+2022-07-03 11:03:28,685 Stage-1 map = 14%,  reduce = 0%, Cumulative CPU 11515.37 sec
+2022-07-03 11:04:20,360 Stage-1 map = 15%,  reduce = 0%, Cumulative CPU 12367.61 sec
+2022-07-03 11:05:14,170 Stage-1 map = 16%,  reduce = 0%, Cumulative CPU 13283.61 sec
+2022-07-03 11:06:04,625 Stage-1 map = 17%,  reduce = 0%, Cumulative CPU 14116.88 sec
+2022-07-03 11:06:55,201 Stage-1 map = 18%,  reduce = 0%, Cumulative CPU 14941.47 sec
+2022-07-03 11:07:45,959 Stage-1 map = 19%,  reduce = 0%, Cumulative CPU 15766.09 sec
+2022-07-03 11:08:34,626 Stage-1 map = 20%,  reduce = 0%, Cumulative CPU 16577.07 sec
+2022-07-03 11:09:23,228 Stage-1 map = 21%,  reduce = 0%, Cumulative CPU 17457.91 sec
+2022-07-03 11:10:21,082 Stage-1 map = 22%,  reduce = 0%, Cumulative CPU 18409.24 sec
+2022-07-03 11:11:03,500 Stage-1 map = 23%,  reduce = 0%, Cumulative CPU 19092.0 sec
+2022-07-03 11:11:58,336 Stage-1 map = 24%,  reduce = 0%, Cumulative CPU 19997.63 sec
+2022-07-03 11:12:45,004 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 20779.58 sec
+2022-07-03 11:13:37,778 Stage-1 map = 26%,  reduce = 0%, Cumulative CPU 21656.68 sec
+2022-07-03 11:14:32,895 Stage-1 map = 27%,  reduce = 0%, Cumulative CPU 22594.18 sec
+2022-07-03 11:15:14,403 Stage-1 map = 28%,  reduce = 0%, Cumulative CPU 23282.75 sec
+2022-07-03 11:16:07,288 Stage-1 map = 29%,  reduce = 0%, Cumulative CPU 24136.68 sec
+2022-07-03 11:16:54,055 Stage-1 map = 30%,  reduce = 0%, Cumulative CPU 24975.67 sec
+2022-07-03 11:17:46,926 Stage-1 map = 31%,  reduce = 0%, Cumulative CPU 25835.84 sec
+2022-07-03 11:18:38,858 Stage-1 map = 32%,  reduce = 0%, Cumulative CPU 26693.73 sec
+2022-07-03 11:19:31,768 Stage-1 map = 33%,  reduce = 0%, Cumulative CPU 27554.15 sec
+2022-07-03 11:20:22,694 Stage-1 map = 34%,  reduce = 0%, Cumulative CPU 28416.06 sec
+2022-07-03 11:21:14,738 Stage-1 map = 35%,  reduce = 0%, Cumulative CPU 29244.04 sec
+2022-07-03 11:22:07,769 Stage-1 map = 36%,  reduce = 0%, Cumulative CPU 30104.35 sec
+2022-07-03 11:22:50,387 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 30850.88 sec
+2022-07-03 11:23:40,559 Stage-1 map = 38%,  reduce = 0%, Cumulative CPU 31647.22 sec
+2022-07-03 11:24:34,757 Stage-1 map = 39%,  reduce = 0%, Cumulative CPU 32514.82 sec
+2022-07-03 11:25:26,940 Stage-1 map = 40%,  reduce = 0%, Cumulative CPU 33337.09 sec
+2022-07-03 11:26:20,005 Stage-1 map = 41%,  reduce = 0%, Cumulative CPU 34176.96 sec
+2022-07-03 11:27:12,053 Stage-1 map = 42%,  reduce = 0%, Cumulative CPU 34951.13 sec
+2022-07-03 11:28:05,137 Stage-1 map = 43%,  reduce = 0%, Cumulative CPU 35754.2 sec
+2022-07-03 11:29:00,539 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 36571.61 sec
+2022-07-03 11:30:00,050 Stage-1 map = 45%,  reduce = 0%, Cumulative CPU 37385.98 sec
+2022-07-03 11:30:56,506 Stage-1 map = 46%,  reduce = 0%, Cumulative CPU 38183.3 sec
+2022-07-03 11:31:57,059 Stage-1 map = 46%,  reduce = 0%, Cumulative CPU 38970.28 sec
+2022-07-03 11:32:02,249 Stage-1 map = 47%,  reduce = 0%, Cumulative CPU 39035.21 sec
+2022-07-03 11:32:57,782 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 39804.02 sec
+2022-07-03 11:33:54,293 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 40553.29 sec
+2022-07-03 11:34:50,893 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 41308.9 sec
+2022-07-03 11:35:51,698 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 42095.55 sec
+2022-07-03 11:35:53,784 Stage-1 map = 51%,  reduce = 0%, Cumulative CPU 42124.4 sec
+2022-07-03 11:36:54,778 Stage-1 map = 52%,  reduce = 0%, Cumulative CPU 42896.15 sec
+2022-07-03 11:37:52,327 Stage-1 map = 53%,  reduce = 0%, Cumulative CPU 43694.37 sec
+2022-07-03 11:38:51,366 Stage-1 map = 54%,  reduce = 0%, Cumulative CPU 44475.17 sec
+2022-07-03 11:39:46,919 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 45228.95 sec
+2022-07-03 11:40:47,822 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 46013.13 sec
+2022-07-03 11:40:50,963 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 46065.97 sec
+2022-07-03 11:41:51,691 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 46876.07 sec
+2022-07-03 11:41:53,779 Stage-1 map = 57%,  reduce = 0%, Cumulative CPU 46909.33 sec
+2022-07-03 11:42:48,352 Stage-1 map = 58%,  reduce = 0%, Cumulative CPU 47624.95 sec
+2022-07-03 11:43:45,201 Stage-1 map = 59%,  reduce = 0%, Cumulative CPU 48413.58 sec
+2022-07-03 11:44:43,980 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 49173.11 sec
+2022-07-03 11:45:39,595 Stage-1 map = 61%,  reduce = 0%, Cumulative CPU 49949.94 sec
+2022-07-03 11:46:39,632 Stage-1 map = 61%,  reduce = 0%, Cumulative CPU 50722.34 sec
+2022-07-03 11:46:43,833 Stage-1 map = 62%,  reduce = 0%, Cumulative CPU 50753.3 sec
+2022-07-03 11:47:38,693 Stage-1 map = 63%,  reduce = 0%, Cumulative CPU 51480.95 sec
+2022-07-03 11:48:35,555 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 52267.15 sec
+2022-07-03 11:49:35,563 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 53057.85 sec
+2022-07-03 11:49:37,644 Stage-1 map = 65%,  reduce = 0%, Cumulative CPU 53086.31 sec
+2022-07-03 11:50:35,505 Stage-1 map = 66%,  reduce = 0%, Cumulative CPU 53819.79 sec
+2022-07-03 11:51:35,583 Stage-1 map = 66%,  reduce = 0%, Cumulative CPU 54627.85 sec
+2022-07-03 11:51:37,679 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 54662.83 sec
+2022-07-03 11:52:33,551 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 55431.27 sec
+2022-07-03 11:53:33,489 Stage-1 map = 69%,  reduce = 0%, Cumulative CPU 56207.81 sec
+2022-07-03 11:54:28,547 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 56947.58 sec
+2022-07-03 11:55:27,650 Stage-1 map = 71%,  reduce = 0%, Cumulative CPU 57728.56 sec
+2022-07-03 11:56:23,591 Stage-1 map = 72%,  reduce = 0%, Cumulative CPU 58446.19 sec
+2022-07-03 11:57:18,451 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 59210.29 sec
+2022-07-03 11:58:18,722 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 59957.7 sec
+2022-07-03 11:58:23,979 Stage-1 map = 74%,  reduce = 0%, Cumulative CPU 60014.87 sec
+2022-07-03 11:59:22,143 Stage-1 map = 75%,  reduce = 0%, Cumulative CPU 60790.15 sec
+2022-07-03 12:00:18,248 Stage-1 map = 76%,  reduce = 0%, Cumulative CPU 61562.64 sec
+2022-07-03 12:01:17,407 Stage-1 map = 77%,  reduce = 0%, Cumulative CPU 62370.65 sec
+2022-07-03 12:02:16,551 Stage-1 map = 78%,  reduce = 0%, Cumulative CPU 63152.99 sec
+2022-07-03 12:03:14,510 Stage-1 map = 79%,  reduce = 0%, Cumulative CPU 63905.64 sec
+2022-07-03 12:04:12,540 Stage-1 map = 80%,  reduce = 0%, Cumulative CPU 64714.41 sec
+2022-07-03 12:04:24,343 Stage-1 map = 80%,  reduce = 1%, Cumulative CPU 64814.28 sec
+2022-07-03 12:05:07,639 Stage-1 map = 81%,  reduce = 1%, Cumulative CPU 65418.9 sec
+2022-07-03 12:06:03,606 Stage-1 map = 82%,  reduce = 1%, Cumulative CPU 66172.4 sec
+2022-07-03 12:07:01,702 Stage-1 map = 83%,  reduce = 1%, Cumulative CPU 66943.79 sec
+2022-07-03 12:08:00,933 Stage-1 map = 84%,  reduce = 1%, Cumulative CPU 67675.81 sec
+2022-07-03 12:09:01,380 Stage-1 map = 85%,  reduce = 1%, Cumulative CPU 68486.22 sec
+2022-07-03 12:10:00,845 Stage-1 map = 86%,  reduce = 1%, Cumulative CPU 69320.21 sec
+2022-07-03 12:10:57,043 Stage-1 map = 87%,  reduce = 1%, Cumulative CPU 70046.88 sec
+2022-07-03 12:11:53,341 Stage-1 map = 88%,  reduce = 1%, Cumulative CPU 70814.67 sec
+2022-07-03 12:12:53,843 Stage-1 map = 88%,  reduce = 1%, Cumulative CPU 71581.21 sec
+2022-07-03 12:12:56,985 Stage-1 map = 89%,  reduce = 1%, Cumulative CPU 71652.45 sec
+2022-07-03 12:13:55,410 Stage-1 map = 90%,  reduce = 1%, Cumulative CPU 72397.08 sec
+2022-07-03 12:14:52,646 Stage-1 map = 91%,  reduce = 1%, Cumulative CPU 73084.21 sec
+2022-07-03 12:15:51,963 Stage-1 map = 92%,  reduce = 1%, Cumulative CPU 73824.08 sec
+2022-07-03 12:16:51,641 Stage-1 map = 93%,  reduce = 1%, Cumulative CPU 74565.48 sec
+2022-07-03 12:17:51,639 Stage-1 map = 94%,  reduce = 1%, Cumulative CPU 75337.14 sec
+2022-07-03 12:18:52,614 Stage-1 map = 94%,  reduce = 1%, Cumulative CPU 76078.53 sec
+2022-07-03 12:18:54,718 Stage-1 map = 95%,  reduce = 1%, Cumulative CPU 76116.4 sec
+2022-07-03 12:19:55,635 Stage-1 map = 96%,  reduce = 1%, Cumulative CPU 76863.54 sec
+2022-07-03 12:20:56,433 Stage-1 map = 97%,  reduce = 1%, Cumulative CPU 77620.13 sec
+2022-07-03 12:21:57,210 Stage-1 map = 97%,  reduce = 1%, Cumulative CPU 78330.29 sec
+2022-07-03 12:22:03,535 Stage-1 map = 98%,  reduce = 1%, Cumulative CPU 78411.5 sec
+2022-07-03 12:22:59,515 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 79134.02 sec
+2022-07-03 12:24:00,179 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 79719.42 sec
+2022-07-03 12:25:00,805 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 80371.25 sec
+2022-07-03 12:25:22,129 Stage-1 map = 100%,  reduce = 1%, Cumulative CPU 80593.77 sec
+2022-07-03 12:25:25,452 Stage-1 map = 100%,  reduce = 2%, Cumulative CPU 80618.02 sec
+2022-07-03 12:25:38,415 Stage-1 map = 100%,  reduce = 3%, Cumulative CPU 80837.98 sec
+2022-07-03 12:25:53,213 Stage-1 map = 100%,  reduce = 4%, Cumulative CPU 81152.66 sec
+2022-07-03 12:26:18,752 Stage-1 map = 100%,  reduce = 5%, Cumulative CPU 81377.09 sec
+2022-07-03 12:26:58,855 Stage-1 map = 100%,  reduce = 6%, Cumulative CPU 81747.2 sec
+2022-07-03 12:27:17,697 Stage-1 map = 100%,  reduce = 7%, Cumulative CPU 82074.05 sec
+2022-07-03 12:27:31,262 Stage-1 map = 100%,  reduce = 8%, Cumulative CPU 82337.01 sec
+2022-07-03 12:27:57,696 Stage-1 map = 100%,  reduce = 9%, Cumulative CPU 82626.15 sec
+2022-07-03 12:28:17,438 Stage-1 map = 100%,  reduce = 10%, Cumulative CPU 82942.42 sec
+2022-07-03 12:28:35,579 Stage-1 map = 100%,  reduce = 11%, Cumulative CPU 83280.97 sec
+2022-07-03 12:28:53,309 Stage-1 map = 100%,  reduce = 12%, Cumulative CPU 83540.3 sec
+2022-07-03 12:29:19,202 Stage-1 map = 100%,  reduce = 13%, Cumulative CPU 83751.33 sec
+2022-07-03 12:29:45,659 Stage-1 map = 100%,  reduce = 14%, Cumulative CPU 83988.0 sec
+2022-07-03 12:30:22,943 Stage-1 map = 100%,  reduce = 15%, Cumulative CPU 84294.07 sec
+2022-07-03 12:30:44,118 Stage-1 map = 100%,  reduce = 16%, Cumulative CPU 84651.91 sec
+2022-07-03 12:31:04,096 Stage-1 map = 100%,  reduce = 17%, Cumulative CPU 84916.65 sec
+2022-07-03 12:31:25,184 Stage-1 map = 100%,  reduce = 18%, Cumulative CPU 85198.2 sec
+2022-07-03 12:31:43,138 Stage-1 map = 100%,  reduce = 19%, Cumulative CPU 85504.58 sec
+2022-07-03 12:32:06,301 Stage-1 map = 100%,  reduce = 20%, Cumulative CPU 85750.77 sec
+2022-07-03 12:32:42,382 Stage-1 map = 100%,  reduce = 21%, Cumulative CPU 85973.33 sec
+2022-07-03 12:33:13,595 Stage-1 map = 100%,  reduce = 22%, Cumulative CPU 86245.37 sec
+2022-07-03 12:33:33,406 Stage-1 map = 100%,  reduce = 23%, Cumulative CPU 86511.33 sec
+2022-07-03 12:33:56,540 Stage-1 map = 100%,  reduce = 24%, Cumulative CPU 86785.07 sec
+2022-07-03 12:34:25,440 Stage-1 map = 100%,  reduce = 25%, Cumulative CPU 87001.66 sec
+2022-07-03 12:35:00,803 Stage-1 map = 100%,  reduce = 26%, Cumulative CPU 87283.93 sec
+2022-07-03 12:35:21,585 Stage-1 map = 100%,  reduce = 27%, Cumulative CPU 87541.42 sec
+2022-07-03 12:35:44,523 Stage-1 map = 100%,  reduce = 28%, Cumulative CPU 87860.11 sec
+2022-07-03 12:36:09,360 Stage-1 map = 100%,  reduce = 29%, Cumulative CPU 88145.15 sec
+2022-07-03 12:36:43,447 Stage-1 map = 100%,  reduce = 30%, Cumulative CPU 88366.74 sec
+2022-07-03 12:37:06,666 Stage-1 map = 100%,  reduce = 31%, Cumulative CPU 88638.43 sec
+2022-07-03 12:37:31,853 Stage-1 map = 100%,  reduce = 32%, Cumulative CPU 88906.22 sec
+2022-07-03 12:37:59,787 Stage-1 map = 100%,  reduce = 33%, Cumulative CPU 89186.28 sec
+2022-07-03 12:38:20,537 Stage-1 map = 100%,  reduce = 34%, Cumulative CPU 89443.29 sec
+2022-07-03 12:38:45,365 Stage-1 map = 100%,  reduce = 35%, Cumulative CPU 89724.58 sec
+2022-07-03 12:39:07,133 Stage-1 map = 100%,  reduce = 36%, Cumulative CPU 89993.65 sec
+2022-07-03 12:39:34,468 Stage-1 map = 100%,  reduce = 37%, Cumulative CPU 90239.48 sec
+2022-07-03 12:40:09,679 Stage-1 map = 100%,  reduce = 38%, Cumulative CPU 90548.79 sec
+2022-07-03 12:40:28,993 Stage-1 map = 100%,  reduce = 39%, Cumulative CPU 90896.66 sec
+2022-07-03 12:40:47,941 Stage-1 map = 100%,  reduce = 40%, Cumulative CPU 91181.52 sec
+2022-07-03 12:41:13,240 Stage-1 map = 100%,  reduce = 41%, Cumulative CPU 91391.34 sec
+2022-07-03 12:41:49,311 Stage-1 map = 100%,  reduce = 42%, Cumulative CPU 91663.7 sec
+2022-07-03 12:42:20,692 Stage-1 map = 100%,  reduce = 43%, Cumulative CPU 91974.71 sec
+2022-07-03 12:42:41,848 Stage-1 map = 100%,  reduce = 44%, Cumulative CPU 92309.87 sec
+2022-07-03 12:42:58,850 Stage-1 map = 100%,  reduce = 45%, Cumulative CPU 92564.12 sec
+2022-07-03 12:43:26,741 Stage-1 map = 100%,  reduce = 46%, Cumulative CPU 92818.63 sec
+2022-07-03 12:43:58,873 Stage-1 map = 100%,  reduce = 47%, Cumulative CPU 93051.5 sec
+2022-07-03 12:44:20,925 Stage-1 map = 100%,  reduce = 48%, Cumulative CPU 93320.69 sec
+2022-07-03 12:44:46,874 Stage-1 map = 100%,  reduce = 49%, Cumulative CPU 93576.22 sec
+2022-07-03 12:45:11,934 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 93833.92 sec
+2022-07-03 12:45:32,725 Stage-1 map = 100%,  reduce = 51%, Cumulative CPU 94068.4 sec
+2022-07-03 12:45:57,746 Stage-1 map = 100%,  reduce = 52%, Cumulative CPU 94328.01 sec
+2022-07-03 12:46:23,602 Stage-1 map = 100%,  reduce = 53%, Cumulative CPU 94588.22 sec
+2022-07-03 12:46:52,812 Stage-1 map = 100%,  reduce = 54%, Cumulative CPU 94828.89 sec
+2022-07-03 12:47:15,672 Stage-1 map = 100%,  reduce = 55%, Cumulative CPU 95149.18 sec
+2022-07-03 12:47:39,016 Stage-1 map = 100%,  reduce = 56%, Cumulative CPU 95473.93 sec
+2022-07-03 12:48:01,699 Stage-1 map = 100%,  reduce = 57%, Cumulative CPU 95653.13 sec
+2022-07-03 12:48:30,891 Stage-1 map = 100%,  reduce = 58%, Cumulative CPU 95912.56 sec
+2022-07-03 12:49:04,075 Stage-1 map = 100%,  reduce = 59%, Cumulative CPU 96196.14 sec
+2022-07-03 12:49:26,451 Stage-1 map = 100%,  reduce = 60%, Cumulative CPU 96532.12 sec
+2022-07-03 12:49:47,194 Stage-1 map = 100%,  reduce = 61%, Cumulative CPU 96774.19 sec
+2022-07-03 12:50:18,316 Stage-1 map = 100%,  reduce = 62%, Cumulative CPU 96981.8 sec
+2022-07-03 12:50:49,280 Stage-1 map = 100%,  reduce = 63%, Cumulative CPU 97249.8 sec
+2022-07-03 12:51:17,314 Stage-1 map = 100%,  reduce = 64%, Cumulative CPU 97541.15 sec
+2022-07-03 12:51:37,746 Stage-1 map = 100%,  reduce = 65%, Cumulative CPU 97846.24 sec
+2022-07-03 12:52:00,078 Stage-1 map = 100%,  reduce = 66%, Cumulative CPU 98089.36 sec
+2022-07-03 12:52:33,100 Stage-1 map = 100%,  reduce = 67%, Cumulative CPU 98340.1 sec
+2022-07-03 12:52:58,032 Stage-1 map = 100%,  reduce = 68%, Cumulative CPU 98623.9 sec
+2022-07-03 12:53:23,158 Stage-1 map = 100%,  reduce = 69%, Cumulative CPU 98870.15 sec
+2022-07-03 12:53:47,196 Stage-1 map = 100%,  reduce = 70%, Cumulative CPU 99096.18 sec
+2022-07-03 12:54:20,275 Stage-1 map = 100%,  reduce = 71%, Cumulative CPU 99379.46 sec
+2022-07-03 12:54:48,410 Stage-1 map = 100%,  reduce = 72%, Cumulative CPU 99652.84 sec
+2022-07-03 12:55:07,288 Stage-1 map = 100%,  reduce = 73%, Cumulative CPU 99912.37 sec
+2022-07-03 12:55:31,222 Stage-1 map = 100%,  reduce = 74%, Cumulative CPU 100205.04 sec
+2022-07-03 12:55:58,256 Stage-1 map = 100%,  reduce = 75%, Cumulative CPU 100411.75 sec
+2022-07-03 12:56:27,569 Stage-1 map = 100%,  reduce = 76%, Cumulative CPU 100656.15 sec
+2022-07-03 12:57:06,056 Stage-1 map = 100%,  reduce = 77%, Cumulative CPU 101000.68 sec
+2022-07-03 12:57:22,322 Stage-1 map = 100%,  reduce = 78%, Cumulative CPU 101305.14 sec
+2022-07-03 12:57:45,422 Stage-1 map = 100%,  reduce = 79%, Cumulative CPU 101604.28 sec
+2022-07-03 12:58:07,194 Stage-1 map = 100%,  reduce = 80%, Cumulative CPU 101783.91 sec
+2022-07-03 12:58:58,333 Stage-1 map = 100%,  reduce = 81%, Cumulative CPU 102140.91 sec
+2022-07-03 12:59:15,934 Stage-1 map = 100%,  reduce = 82%, Cumulative CPU 102438.13 sec
+2022-07-03 12:59:36,526 Stage-1 map = 100%,  reduce = 83%, Cumulative CPU 102739.75 sec
+2022-07-03 13:00:00,356 Stage-1 map = 100%,  reduce = 84%, Cumulative CPU 102959.0 sec
+2022-07-03 13:00:43,748 Stage-1 map = 100%,  reduce = 85%, Cumulative CPU 103210.64 sec
+2022-07-03 13:01:13,696 Stage-1 map = 100%,  reduce = 86%, Cumulative CPU 103535.1 sec
+2022-07-03 13:01:31,832 Stage-1 map = 100%,  reduce = 87%, Cumulative CPU 103867.18 sec
+2022-07-03 13:01:54,414 Stage-1 map = 100%,  reduce = 88%, Cumulative CPU 104159.96 sec
+2022-07-03 13:02:24,356 Stage-1 map = 100%,  reduce = 89%, Cumulative CPU 104350.72 sec
+2022-07-03 13:03:08,929 Stage-1 map = 100%,  reduce = 90%, Cumulative CPU 104616.57 sec
+2022-07-03 13:03:35,375 Stage-1 map = 100%,  reduce = 91%, Cumulative CPU 104965.23 sec
+2022-07-03 13:03:56,547 Stage-1 map = 100%,  reduce = 92%, Cumulative CPU 105293.93 sec
+2022-07-03 13:04:19,315 Stage-1 map = 100%,  reduce = 93%, Cumulative CPU 105536.49 sec
+2022-07-03 13:04:43,199 Stage-1 map = 100%,  reduce = 94%, Cumulative CPU 105736.39 sec
+2022-07-03 13:05:25,967 Stage-1 map = 100%,  reduce = 95%, Cumulative CPU 106072.75 sec
+2022-07-03 13:05:45,488 Stage-1 map = 100%,  reduce = 96%, Cumulative CPU 106397.68 sec
+2022-07-03 13:06:05,404 Stage-1 map = 100%,  reduce = 97%, Cumulative CPU 106664.1 sec
+2022-07-03 13:06:33,373 Stage-1 map = 100%,  reduce = 98%, Cumulative CPU 106893.5 sec
+2022-07-03 13:07:10,782 Stage-1 map = 100%,  reduce = 99%, Cumulative CPU 107192.6 sec
+2022-07-03 13:07:51,765 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 107684.74 sec
+MapReduce Total cumulative CPU time: 1 days 5 hours 54 minutes 44 seconds 740 msec
+Ended Job = job_1655196875471_0190
+Moving data to directory /outputs/query/aggregation/aggregation-1024GB-results/hive-result
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 2792  Reduce: 1009   Cumulative CPU: 107684.74 sec   HDFS Read: 749525577490 HDFS Write: 16975647 SUCCESS
+Total MapReduce CPU Time Spent: 1 days 5 hours 54 minutes 44 seconds 740 msec
+OK
+Time taken: 8179.8 seconds
+
+>>> ENDING HIVE AGGREGATION: Sun Jul  3 13:07:56 UTC 2022 (1656853676)
+
+
+>>> DOWNLOADING METRICS - HADOOP CLUSTER
+
+Downloading metrics from datanode1
+Downloading metrics from datanode2
+Downloading metrics from datanode3
+Downloading metrics from datanode4
+Downloading metrics from datanode5
+Downloading metrics from namenode
+
+>>> TREATING METRICS - HADOOP CLUSTER
+
+
+>>> SIMPLIFYING METRICS - HADOOP CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - HIVE OUTPUT
+
+Hive: a24e1c63b750556c997572d970b54c87
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 4dd00383-0d25-461b-a7c6-20a47c34012d
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 80e4d447-f0c2-463f-acde-283641d64dc4
+OK
+Time taken: 1.131 seconds
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing datanode1 for the benchmark
+Preparing datanode2 for the benchmark
+Preparing datanode3 for the benchmark
+Preparing datanode4 for the benchmark
+Preparing datanode5 for the benchmark
+Preparing namenode for the benchmark
+
+>>> STARTING HIVE AGGREGATION: Sun Jul  3 13:08:27 UTC 2022 (1656853707)
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 116b0421-43b9-4d4d-9b95-4dc2cdd137c6
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = dd89ea7f-add4-4c0a-b11f-f0a98caca7e8
+Query ID = root_20220703130837_c0e6681c-1c78-493c-872d-989e4293ec13
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 1009
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1655196875471_0191, Tracking URL = http://namenode:8088/proxy/application_1655196875471_0191/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1655196875471_0191
+Hadoop job information for Stage-1: number of mappers: 2792; number of reducers: 1009
+2022-07-03 13:08:48,450 Stage-1 map = 0%,  reduce = 0%
+2022-07-03 13:09:38,751 Stage-1 map = 1%,  reduce = 0%, Cumulative CPU 702.26 sec
+2022-07-03 13:10:34,140 Stage-1 map = 2%,  reduce = 0%, Cumulative CPU 1582.28 sec
+2022-07-03 13:11:13,524 Stage-1 map = 3%,  reduce = 0%, Cumulative CPU 2295.06 sec
+2022-07-03 13:12:13,859 Stage-1 map = 3%,  reduce = 0%, Cumulative CPU 3266.26 sec
+2022-07-03 13:12:15,933 Stage-1 map = 4%,  reduce = 0%, Cumulative CPU 3318.57 sec
+2022-07-03 13:13:01,727 Stage-1 map = 5%,  reduce = 0%, Cumulative CPU 4016.24 sec
+2022-07-03 13:13:41,434 Stage-1 map = 6%,  reduce = 0%, Cumulative CPU 4785.84 sec
+2022-07-03 13:14:41,797 Stage-1 map = 6%,  reduce = 0%, Cumulative CPU 5769.8 sec
+2022-07-03 13:14:42,824 Stage-1 map = 7%,  reduce = 0%, Cumulative CPU 5773.82 sec
+2022-07-03 13:15:35,971 Stage-1 map = 8%,  reduce = 0%, Cumulative CPU 6622.79 sec
+2022-07-03 13:16:20,496 Stage-1 map = 9%,  reduce = 0%, Cumulative CPU 7327.17 sec
+2022-07-03 13:17:12,807 Stage-1 map = 10%,  reduce = 0%, Cumulative CPU 8252.28 sec
+2022-07-03 13:18:04,854 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 9088.71 sec
+2022-07-03 13:18:52,739 Stage-1 map = 12%,  reduce = 0%, Cumulative CPU 9894.13 sec
+2022-07-03 13:19:47,526 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 10818.91 sec
+2022-07-03 13:20:45,340 Stage-1 map = 14%,  reduce = 0%, Cumulative CPU 11725.58 sec
+2022-07-03 13:21:29,736 Stage-1 map = 15%,  reduce = 0%, Cumulative CPU 12417.64 sec
+2022-07-03 13:22:21,374 Stage-1 map = 16%,  reduce = 0%, Cumulative CPU 13222.06 sec
+2022-07-03 13:23:14,310 Stage-1 map = 17%,  reduce = 0%, Cumulative CPU 14126.44 sec
+2022-07-03 13:23:59,957 Stage-1 map = 18%,  reduce = 0%, Cumulative CPU 14898.65 sec
+2022-07-03 13:24:53,827 Stage-1 map = 19%,  reduce = 0%, Cumulative CPU 15751.47 sec
+2022-07-03 13:25:44,515 Stage-1 map = 20%,  reduce = 0%, Cumulative CPU 16594.47 sec
+2022-07-03 13:26:36,374 Stage-1 map = 21%,  reduce = 0%, Cumulative CPU 17478.7 sec
+2022-07-03 13:27:30,248 Stage-1 map = 22%,  reduce = 0%, Cumulative CPU 18363.93 sec
+2022-07-03 13:28:18,700 Stage-1 map = 23%,  reduce = 0%, Cumulative CPU 19126.51 sec
+2022-07-03 13:29:11,429 Stage-1 map = 24%,  reduce = 0%, Cumulative CPU 19973.33 sec
+2022-07-03 13:30:05,115 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 20810.92 sec
+2022-07-03 13:30:54,511 Stage-1 map = 26%,  reduce = 0%, Cumulative CPU 21561.46 sec
+2022-07-03 13:31:48,136 Stage-1 map = 27%,  reduce = 0%, Cumulative CPU 22439.0 sec
+2022-07-03 13:32:45,834 Stage-1 map = 28%,  reduce = 0%, Cumulative CPU 23294.29 sec
+2022-07-03 13:33:33,237 Stage-1 map = 29%,  reduce = 0%, Cumulative CPU 24080.89 sec
+2022-07-03 13:34:22,661 Stage-1 map = 30%,  reduce = 0%, Cumulative CPU 24824.87 sec
+2022-07-03 13:35:20,299 Stage-1 map = 31%,  reduce = 0%, Cumulative CPU 25687.79 sec
+2022-07-03 13:36:11,816 Stage-1 map = 32%,  reduce = 0%, Cumulative CPU 26476.31 sec
+2022-07-03 13:37:01,287 Stage-1 map = 33%,  reduce = 0%, Cumulative CPU 27258.55 sec
+2022-07-03 13:37:53,797 Stage-1 map = 34%,  reduce = 0%, Cumulative CPU 28078.07 sec
+2022-07-03 13:38:53,628 Stage-1 map = 35%,  reduce = 0%, Cumulative CPU 28950.14 sec
+2022-07-03 13:39:45,175 Stage-1 map = 36%,  reduce = 0%, Cumulative CPU 29734.23 sec
+2022-07-03 13:40:36,788 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 30545.12 sec
+2022-07-03 13:41:30,470 Stage-1 map = 38%,  reduce = 0%, Cumulative CPU 31345.74 sec
+2022-07-03 13:42:20,007 Stage-1 map = 39%,  reduce = 0%, Cumulative CPU 32099.34 sec
+2022-07-03 13:43:10,513 Stage-1 map = 40%,  reduce = 0%, Cumulative CPU 32896.18 sec
+2022-07-03 13:44:11,141 Stage-1 map = 40%,  reduce = 0%, Cumulative CPU 33711.92 sec
+2022-07-03 13:44:15,248 Stage-1 map = 41%,  reduce = 0%, Cumulative CPU 33820.67 sec
+2022-07-03 13:45:13,782 Stage-1 map = 42%,  reduce = 0%, Cumulative CPU 34698.43 sec
+2022-07-03 13:46:04,106 Stage-1 map = 43%,  reduce = 0%, Cumulative CPU 35395.83 sec
+2022-07-03 13:47:03,781 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 36253.12 sec
+2022-07-03 13:47:59,262 Stage-1 map = 45%,  reduce = 0%, Cumulative CPU 37050.22 sec
+2022-07-03 13:48:55,780 Stage-1 map = 46%,  reduce = 0%, Cumulative CPU 37902.57 sec
+2022-07-03 13:49:50,320 Stage-1 map = 47%,  reduce = 0%, Cumulative CPU 38647.45 sec
+2022-07-03 13:50:44,841 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 39478.17 sec
+2022-07-03 13:51:45,393 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 40287.87 sec
+2022-07-03 13:51:49,492 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 40353.16 sec
+2022-07-03 13:52:49,986 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 41156.53 sec
+2022-07-03 13:53:50,492 Stage-1 map = 51%,  reduce = 0%, Cumulative CPU 41922.36 sec
+2022-07-03 13:54:50,993 Stage-1 map = 52%,  reduce = 0%, Cumulative CPU 42788.03 sec
+2022-07-03 13:55:51,499 Stage-1 map = 52%,  reduce = 0%, Cumulative CPU 43578.23 sec
+2022-07-03 13:55:54,576 Stage-1 map = 53%,  reduce = 0%, Cumulative CPU 43626.02 sec
+2022-07-03 13:56:55,072 Stage-1 map = 53%,  reduce = 0%, Cumulative CPU 44338.34 sec
+2022-07-03 13:56:58,147 Stage-1 map = 54%,  reduce = 0%, Cumulative CPU 44433.26 sec
+2022-07-03 13:57:58,650 Stage-1 map = 54%,  reduce = 0%, Cumulative CPU 45244.85 sec
+2022-07-03 13:58:01,726 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 45291.21 sec
+2022-07-03 13:58:59,153 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 46091.07 sec
+2022-07-03 13:59:59,665 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 46900.47 sec
+2022-07-03 14:00:06,843 Stage-1 map = 57%,  reduce = 0%, Cumulative CPU 47019.39 sec
+2022-07-03 14:01:03,242 Stage-1 map = 58%,  reduce = 0%, Cumulative CPU 47772.11 sec
+2022-07-03 14:02:03,794 Stage-1 map = 58%,  reduce = 0%, Cumulative CPU 48542.37 sec
+2022-07-03 14:02:06,872 Stage-1 map = 59%,  reduce = 0%, Cumulative CPU 48576.13 sec
+2022-07-03 14:03:07,400 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 49425.38 sec
+2022-07-03 14:04:07,925 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 50197.49 sec
+2022-07-03 14:04:14,076 Stage-1 map = 61%,  reduce = 0%, Cumulative CPU 50313.74 sec
+2022-07-03 14:05:14,608 Stage-1 map = 62%,  reduce = 0%, Cumulative CPU 51122.46 sec
+2022-07-03 14:06:11,033 Stage-1 map = 63%,  reduce = 0%, Cumulative CPU 51860.71 sec
+2022-07-03 14:07:11,563 Stage-1 map = 63%,  reduce = 0%, Cumulative CPU 52675.87 sec
+2022-07-03 14:07:15,669 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 52747.24 sec
+2022-07-03 14:08:16,198 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 53563.19 sec
+2022-07-03 14:08:19,275 Stage-1 map = 65%,  reduce = 0%, Cumulative CPU 53617.97 sec
+2022-07-03 14:09:16,732 Stage-1 map = 66%,  reduce = 0%, Cumulative CPU 54326.85 sec
+2022-07-03 14:10:17,269 Stage-1 map = 66%,  reduce = 0%, Cumulative CPU 55104.56 sec
+2022-07-03 14:10:22,401 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 55173.73 sec
+2022-07-03 14:11:16,815 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 55952.16 sec
+2022-07-03 14:12:17,388 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 56722.37 sec
+2022-07-03 14:12:21,494 Stage-1 map = 69%,  reduce = 0%, Cumulative CPU 56822.95 sec
+2022-07-03 14:13:22,079 Stage-1 map = 69%,  reduce = 0%, Cumulative CPU 57640.07 sec
+2022-07-03 14:13:26,184 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 57683.63 sec
+2022-07-03 14:14:26,757 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 58460.71 sec
+2022-07-03 14:14:27,783 Stage-1 map = 71%,  reduce = 0%, Cumulative CPU 58471.37 sec
+2022-07-03 14:15:23,239 Stage-1 map = 72%,  reduce = 0%, Cumulative CPU 59264.15 sec
+2022-07-03 14:16:23,829 Stage-1 map = 72%,  reduce = 0%, Cumulative CPU 60083.48 sec
+2022-07-03 14:16:24,856 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 60114.59 sec
+2022-07-03 14:17:25,444 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 60838.01 sec
+2022-07-03 14:17:29,549 Stage-1 map = 74%,  reduce = 0%, Cumulative CPU 60916.68 sec
+2022-07-03 14:18:30,124 Stage-1 map = 74%,  reduce = 0%, Cumulative CPU 61694.18 sec
+2022-07-03 14:18:33,202 Stage-1 map = 75%,  reduce = 0%, Cumulative CPU 61794.03 sec
+2022-07-03 14:19:29,684 Stage-1 map = 76%,  reduce = 0%, Cumulative CPU 62514.57 sec
+2022-07-03 14:20:30,268 Stage-1 map = 76%,  reduce = 0%, Cumulative CPU 63364.19 sec
+2022-07-03 14:20:31,295 Stage-1 map = 77%,  reduce = 0%, Cumulative CPU 63374.28 sec
+2022-07-03 14:21:31,893 Stage-1 map = 77%,  reduce = 0%, Cumulative CPU 64185.95 sec
+2022-07-03 14:21:34,975 Stage-1 map = 78%,  reduce = 0%, Cumulative CPU 64243.79 sec
+2022-07-03 14:22:35,581 Stage-1 map = 79%,  reduce = 0%, Cumulative CPU 64999.4 sec
+2022-07-03 14:23:34,132 Stage-1 map = 80%,  reduce = 0%, Cumulative CPU 65803.44 sec
+2022-07-03 14:23:59,816 Stage-1 map = 80%,  reduce = 1%, Cumulative CPU 66146.44 sec
+2022-07-03 14:24:34,744 Stage-1 map = 81%,  reduce = 1%, Cumulative CPU 66618.51 sec
+2022-07-03 14:25:35,368 Stage-1 map = 81%,  reduce = 1%, Cumulative CPU 67391.35 sec
+2022-07-03 14:25:42,565 Stage-1 map = 82%,  reduce = 1%, Cumulative CPU 67529.83 sec
+2022-07-03 14:26:39,075 Stage-1 map = 83%,  reduce = 1%, Cumulative CPU 68260.76 sec
+2022-07-03 14:27:39,701 Stage-1 map = 83%,  reduce = 1%, Cumulative CPU 69047.11 sec
+2022-07-03 14:27:41,754 Stage-1 map = 84%,  reduce = 1%, Cumulative CPU 69079.04 sec
+2022-07-03 14:28:42,414 Stage-1 map = 84%,  reduce = 1%, Cumulative CPU 69944.18 sec
+2022-07-03 14:28:45,502 Stage-1 map = 85%,  reduce = 1%, Cumulative CPU 69966.95 sec
+2022-07-03 14:29:45,160 Stage-1 map = 86%,  reduce = 1%, Cumulative CPU 70698.46 sec
+2022-07-03 14:30:45,891 Stage-1 map = 86%,  reduce = 1%, Cumulative CPU 71440.55 sec
+2022-07-03 14:30:55,152 Stage-1 map = 87%,  reduce = 1%, Cumulative CPU 71544.66 sec
+2022-07-03 14:31:55,929 Stage-1 map = 87%,  reduce = 1%, Cumulative CPU 72283.54 sec
+2022-07-03 14:31:56,958 Stage-1 map = 88%,  reduce = 1%, Cumulative CPU 72307.39 sec
+2022-07-03 14:32:57,769 Stage-1 map = 88%,  reduce = 1%, Cumulative CPU 73069.98 sec
+2022-07-03 14:33:03,955 Stage-1 map = 89%,  reduce = 1%, Cumulative CPU 73172.33 sec
+2022-07-03 14:34:04,845 Stage-1 map = 89%,  reduce = 1%, Cumulative CPU 73862.34 sec
+2022-07-03 14:34:11,026 Stage-1 map = 90%,  reduce = 1%, Cumulative CPU 73930.21 sec
+2022-07-03 14:35:11,852 Stage-1 map = 90%,  reduce = 1%, Cumulative CPU 74582.91 sec
+2022-07-03 14:35:25,284 Stage-1 map = 91%,  reduce = 1%, Cumulative CPU 74739.82 sec
+2022-07-03 14:36:26,120 Stage-1 map = 91%,  reduce = 1%, Cumulative CPU 75431.7 sec
+2022-07-03 14:36:29,210 Stage-1 map = 92%,  reduce = 1%, Cumulative CPU 75468.66 sec
+2022-07-03 14:37:30,078 Stage-1 map = 92%,  reduce = 1%, Cumulative CPU 76177.44 sec
+2022-07-03 14:37:36,277 Stage-1 map = 93%,  reduce = 1%, Cumulative CPU 76262.94 sec
+2022-07-03 14:38:37,117 Stage-1 map = 93%,  reduce = 1%, Cumulative CPU 76956.16 sec
+2022-07-03 14:38:48,461 Stage-1 map = 94%,  reduce = 1%, Cumulative CPU 77092.41 sec
+2022-07-03 14:39:49,345 Stage-1 map = 94%,  reduce = 1%, Cumulative CPU 77782.27 sec
+2022-07-03 14:39:54,512 Stage-1 map = 95%,  reduce = 1%, Cumulative CPU 77853.69 sec
+2022-07-03 14:40:55,385 Stage-1 map = 95%,  reduce = 1%, Cumulative CPU 78586.1 sec
+2022-07-03 14:40:59,517 Stage-1 map = 96%,  reduce = 1%, Cumulative CPU 78631.44 sec
+2022-07-03 14:42:00,360 Stage-1 map = 96%,  reduce = 1%, Cumulative CPU 79301.51 sec
+2022-07-03 14:42:07,584 Stage-1 map = 97%,  reduce = 1%, Cumulative CPU 79389.81 sec
+2022-07-03 14:43:08,460 Stage-1 map = 97%,  reduce = 1%, Cumulative CPU 80102.88 sec
+2022-07-03 14:43:14,655 Stage-1 map = 98%,  reduce = 1%, Cumulative CPU 80164.1 sec
+2022-07-03 14:44:15,514 Stage-1 map = 98%,  reduce = 1%, Cumulative CPU 80811.56 sec
+2022-07-03 14:44:24,801 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 80924.08 sec
+2022-07-03 14:45:25,696 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 81587.18 sec
+2022-07-03 14:46:25,890 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 82336.78 sec
+2022-07-03 14:46:26,917 Stage-1 map = 100%,  reduce = 1%, Cumulative CPU 82348.24 sec
+2022-07-03 14:46:31,186 Stage-1 map = 100%,  reduce = 2%, Cumulative CPU 82372.46 sec
+2022-07-03 14:46:43,850 Stage-1 map = 100%,  reduce = 3%, Cumulative CPU 82621.54 sec
+2022-07-03 14:47:09,245 Stage-1 map = 100%,  reduce = 4%, Cumulative CPU 82964.59 sec
+2022-07-03 14:47:23,860 Stage-1 map = 100%,  reduce = 5%, Cumulative CPU 83168.8 sec
+2022-07-03 14:47:49,801 Stage-1 map = 100%,  reduce = 6%, Cumulative CPU 83482.66 sec
+2022-07-03 14:48:10,951 Stage-1 map = 100%,  reduce = 7%, Cumulative CPU 83844.35 sec
+2022-07-03 14:48:31,665 Stage-1 map = 100%,  reduce = 8%, Cumulative CPU 84138.6 sec
+2022-07-03 14:48:53,923 Stage-1 map = 100%,  reduce = 9%, Cumulative CPU 84401.4 sec
+2022-07-03 14:49:10,357 Stage-1 map = 100%,  reduce = 10%, Cumulative CPU 84690.73 sec
+2022-07-03 14:49:32,341 Stage-1 map = 100%,  reduce = 11%, Cumulative CPU 85051.37 sec
+2022-07-03 14:49:54,583 Stage-1 map = 100%,  reduce = 12%, Cumulative CPU 85347.96 sec
+2022-07-03 14:50:13,459 Stage-1 map = 100%,  reduce = 13%, Cumulative CPU 85584.37 sec
+2022-07-03 14:50:32,410 Stage-1 map = 100%,  reduce = 14%, Cumulative CPU 85935.66 sec
+2022-07-03 14:50:52,058 Stage-1 map = 100%,  reduce = 15%, Cumulative CPU 86246.45 sec
+2022-07-03 14:51:13,727 Stage-1 map = 100%,  reduce = 16%, Cumulative CPU 86536.14 sec
+2022-07-03 14:51:31,403 Stage-1 map = 100%,  reduce = 17%, Cumulative CPU 86811.46 sec
+2022-07-03 14:51:53,400 Stage-1 map = 100%,  reduce = 18%, Cumulative CPU 87148.46 sec
+2022-07-03 14:52:12,058 Stage-1 map = 100%,  reduce = 19%, Cumulative CPU 87400.92 sec
+2022-07-03 14:52:32,931 Stage-1 map = 100%,  reduce = 20%, Cumulative CPU 87687.09 sec
+2022-07-03 14:52:52,855 Stage-1 map = 100%,  reduce = 21%, Cumulative CPU 88034.24 sec
+2022-07-03 14:53:11,568 Stage-1 map = 100%,  reduce = 22%, Cumulative CPU 88307.35 sec
+2022-07-03 14:53:31,591 Stage-1 map = 100%,  reduce = 23%, Cumulative CPU 88605.25 sec
+2022-07-03 14:53:50,912 Stage-1 map = 100%,  reduce = 24%, Cumulative CPU 88878.2 sec
+2022-07-03 14:54:11,971 Stage-1 map = 100%,  reduce = 25%, Cumulative CPU 89174.35 sec
+2022-07-03 14:54:29,618 Stage-1 map = 100%,  reduce = 26%, Cumulative CPU 89468.56 sec
+2022-07-03 14:54:50,269 Stage-1 map = 100%,  reduce = 27%, Cumulative CPU 89784.65 sec
+2022-07-03 14:55:09,120 Stage-1 map = 100%,  reduce = 28%, Cumulative CPU 90011.55 sec
+2022-07-03 14:55:29,089 Stage-1 map = 100%,  reduce = 29%, Cumulative CPU 90317.52 sec
+2022-07-03 14:55:48,572 Stage-1 map = 100%,  reduce = 30%, Cumulative CPU 90673.24 sec
+2022-07-03 14:56:11,539 Stage-1 map = 100%,  reduce = 31%, Cumulative CPU 90985.79 sec
+2022-07-03 14:56:28,835 Stage-1 map = 100%,  reduce = 32%, Cumulative CPU 91204.91 sec
+2022-07-03 14:56:47,676 Stage-1 map = 100%,  reduce = 33%, Cumulative CPU 91547.74 sec
+2022-07-03 14:57:06,491 Stage-1 map = 100%,  reduce = 34%, Cumulative CPU 91838.76 sec
+2022-07-03 14:57:28,266 Stage-1 map = 100%,  reduce = 35%, Cumulative CPU 92122.12 sec
+2022-07-03 14:57:47,963 Stage-1 map = 100%,  reduce = 36%, Cumulative CPU 92381.75 sec
+2022-07-03 14:58:07,485 Stage-1 map = 100%,  reduce = 37%, Cumulative CPU 92730.58 sec
+2022-07-03 14:58:28,261 Stage-1 map = 100%,  reduce = 38%, Cumulative CPU 93018.9 sec
+2022-07-03 14:58:48,251 Stage-1 map = 100%,  reduce = 39%, Cumulative CPU 93249.91 sec
+2022-07-03 14:59:09,563 Stage-1 map = 100%,  reduce = 40%, Cumulative CPU 93630.06 sec
+2022-07-03 14:59:27,755 Stage-1 map = 100%,  reduce = 41%, Cumulative CPU 93923.19 sec
+2022-07-03 14:59:51,859 Stage-1 map = 100%,  reduce = 42%, Cumulative CPU 94198.82 sec
+2022-07-03 15:00:10,802 Stage-1 map = 100%,  reduce = 43%, Cumulative CPU 94541.93 sec
+2022-07-03 15:00:28,833 Stage-1 map = 100%,  reduce = 44%, Cumulative CPU 94851.01 sec
+2022-07-03 15:00:51,626 Stage-1 map = 100%,  reduce = 45%, Cumulative CPU 95136.88 sec
+2022-07-03 15:01:13,126 Stage-1 map = 100%,  reduce = 46%, Cumulative CPU 95415.71 sec
+2022-07-03 15:01:30,995 Stage-1 map = 100%,  reduce = 47%, Cumulative CPU 95765.59 sec
+2022-07-03 15:01:51,128 Stage-1 map = 100%,  reduce = 48%, Cumulative CPU 96065.79 sec
+2022-07-03 15:02:14,101 Stage-1 map = 100%,  reduce = 49%, Cumulative CPU 96328.37 sec
+2022-07-03 15:02:31,796 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 96627.02 sec
+2022-07-03 15:02:51,686 Stage-1 map = 100%,  reduce = 51%, Cumulative CPU 96965.5 sec
+2022-07-03 15:03:11,422 Stage-1 map = 100%,  reduce = 52%, Cumulative CPU 97278.96 sec
+2022-07-03 15:03:33,767 Stage-1 map = 100%,  reduce = 53%, Cumulative CPU 97538.66 sec
+2022-07-03 15:03:52,811 Stage-1 map = 100%,  reduce = 54%, Cumulative CPU 97866.24 sec
+2022-07-03 15:04:11,143 Stage-1 map = 100%,  reduce = 55%, Cumulative CPU 98175.78 sec
+2022-07-03 15:04:37,034 Stage-1 map = 100%,  reduce = 56%, Cumulative CPU 98468.25 sec
+2022-07-03 15:04:53,800 Stage-1 map = 100%,  reduce = 57%, Cumulative CPU 98721.22 sec
+2022-07-03 15:05:13,404 Stage-1 map = 100%,  reduce = 58%, Cumulative CPU 99087.05 sec
+2022-07-03 15:05:33,332 Stage-1 map = 100%,  reduce = 59%, Cumulative CPU 99401.23 sec
+2022-07-03 15:05:57,368 Stage-1 map = 100%,  reduce = 60%, Cumulative CPU 99619.55 sec
+2022-07-03 15:06:16,975 Stage-1 map = 100%,  reduce = 61%, Cumulative CPU 99996.39 sec
+2022-07-03 15:06:34,119 Stage-1 map = 100%,  reduce = 62%, Cumulative CPU 100307.3 sec
+2022-07-03 15:06:58,532 Stage-1 map = 100%,  reduce = 63%, Cumulative CPU 100604.16 sec
+2022-07-03 15:07:14,139 Stage-1 map = 100%,  reduce = 64%, Cumulative CPU 100827.37 sec
+2022-07-03 15:07:32,980 Stage-1 map = 100%,  reduce = 65%, Cumulative CPU 101158.31 sec
+2022-07-03 15:08:00,269 Stage-1 map = 100%,  reduce = 66%, Cumulative CPU 101512.35 sec
+2022-07-03 15:08:15,952 Stage-1 map = 100%,  reduce = 67%, Cumulative CPU 101741.31 sec
+2022-07-03 15:08:38,291 Stage-1 map = 100%,  reduce = 68%, Cumulative CPU 102067.69 sec
+2022-07-03 15:08:57,557 Stage-1 map = 100%,  reduce = 69%, Cumulative CPU 102382.0 sec
+2022-07-03 15:09:21,605 Stage-1 map = 100%,  reduce = 70%, Cumulative CPU 102663.65 sec
+2022-07-03 15:09:37,964 Stage-1 map = 100%,  reduce = 71%, Cumulative CPU 102917.83 sec
+2022-07-03 15:10:00,357 Stage-1 map = 100%,  reduce = 72%, Cumulative CPU 103278.48 sec
+2022-07-03 15:10:21,281 Stage-1 map = 100%,  reduce = 73%, Cumulative CPU 103567.58 sec
+2022-07-03 15:10:44,200 Stage-1 map = 100%,  reduce = 74%, Cumulative CPU 103893.1 sec
+2022-07-03 15:10:59,851 Stage-1 map = 100%,  reduce = 75%, Cumulative CPU 104145.39 sec
+2022-07-03 15:11:22,482 Stage-1 map = 100%,  reduce = 76%, Cumulative CPU 104497.53 sec
+2022-07-03 15:11:41,188 Stage-1 map = 100%,  reduce = 77%, Cumulative CPU 104764.19 sec
+2022-07-03 15:12:03,118 Stage-1 map = 100%,  reduce = 78%, Cumulative CPU 105048.65 sec
+2022-07-03 15:12:23,275 Stage-1 map = 100%,  reduce = 79%, Cumulative CPU 105432.61 sec
+2022-07-03 15:12:42,412 Stage-1 map = 100%,  reduce = 80%, Cumulative CPU 105717.54 sec
+2022-07-03 15:13:05,803 Stage-1 map = 100%,  reduce = 81%, Cumulative CPU 105981.84 sec
+2022-07-03 15:13:22,515 Stage-1 map = 100%,  reduce = 82%, Cumulative CPU 106294.24 sec
+2022-07-03 15:13:41,320 Stage-1 map = 100%,  reduce = 83%, Cumulative CPU 106618.68 sec
+2022-07-03 15:14:03,396 Stage-1 map = 100%,  reduce = 84%, Cumulative CPU 106893.76 sec
+2022-07-03 15:14:22,319 Stage-1 map = 100%,  reduce = 85%, Cumulative CPU 107191.14 sec
+2022-07-03 15:14:41,127 Stage-1 map = 100%,  reduce = 86%, Cumulative CPU 107521.16 sec
+2022-07-03 15:15:03,118 Stage-1 map = 100%,  reduce = 87%, Cumulative CPU 107810.11 sec
+2022-07-03 15:15:22,204 Stage-1 map = 100%,  reduce = 88%, Cumulative CPU 108063.24 sec
+2022-07-03 15:15:44,455 Stage-1 map = 100%,  reduce = 89%, Cumulative CPU 108369.71 sec
+2022-07-03 15:16:02,580 Stage-1 map = 100%,  reduce = 90%, Cumulative CPU 108662.51 sec
+2022-07-03 15:16:26,417 Stage-1 map = 100%,  reduce = 91%, Cumulative CPU 108912.36 sec
+2022-07-03 15:16:47,123 Stage-1 map = 100%,  reduce = 92%, Cumulative CPU 109242.73 sec
+2022-07-03 15:17:06,075 Stage-1 map = 100%,  reduce = 93%, Cumulative CPU 109528.28 sec
+2022-07-03 15:17:26,229 Stage-1 map = 100%,  reduce = 94%, Cumulative CPU 109787.18 sec
+2022-07-03 15:17:46,958 Stage-1 map = 100%,  reduce = 95%, Cumulative CPU 110019.77 sec
+2022-07-03 15:18:09,623 Stage-1 map = 100%,  reduce = 96%, Cumulative CPU 110342.56 sec
+2022-07-03 15:18:28,755 Stage-1 map = 100%,  reduce = 97%, Cumulative CPU 110653.2 sec
+2022-07-03 15:18:52,787 Stage-1 map = 100%,  reduce = 98%, Cumulative CPU 110899.73 sec
+2022-07-03 15:19:09,062 Stage-1 map = 100%,  reduce = 99%, Cumulative CPU 111205.28 sec
+2022-07-03 15:19:46,415 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 111661.25 sec
+MapReduce Total cumulative CPU time: 1 days 7 hours 1 minutes 1 seconds 250 msec
+Ended Job = job_1655196875471_0191
+Moving data to directory /outputs/query/aggregation/aggregation-1024GB-results/hive-result
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 2792  Reduce: 1009   Cumulative CPU: 111661.25 sec   HDFS Read: 749525577490 HDFS Write: 16975647 SUCCESS
+Total MapReduce CPU Time Spent: 1 days 7 hours 1 minutes 1 seconds 250 msec
+OK
+Time taken: 7872.258 seconds
+
+>>> ENDING HIVE AGGREGATION: Sun Jul  3 15:19:50 UTC 2022 (1656861590)
+
+
+>>> DOWNLOADING METRICS - HADOOP CLUSTER
+
+Downloading metrics from datanode1
+Downloading metrics from datanode2
+Downloading metrics from datanode3
+Downloading metrics from datanode4
+Downloading metrics from datanode5
+Downloading metrics from namenode
+
+>>> TREATING METRICS - HADOOP CLUSTER
+
+
+>>> SIMPLIFYING METRICS - HADOOP CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - HIVE OUTPUT
+
+Hive: a24e1c63b750556c997572d970b54c87
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 9b1692bc-08b5-4c7d-99dd-43ca7b8d0267
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = e3ab0c4d-b2e8-41df-8e32-b72e200398cd
+OK
+Time taken: 1.161 seconds
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing datanode1 for the benchmark
+Preparing datanode2 for the benchmark
+Preparing datanode3 for the benchmark
+Preparing datanode4 for the benchmark
+Preparing datanode5 for the benchmark
+Preparing namenode for the benchmark
+
+>>> STARTING HIVE AGGREGATION: Sun Jul  3 15:20:20 UTC 2022 (1656861620)
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 95f89d26-6a86-424a-b557-bd7c32137e1a
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = fb787dac-3d86-4931-b2fb-2a14a29771e1
+Query ID = root_20220703152030_b72aede8-3cc7-4556-b050-598d62275424
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 1009
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1655196875471_0192, Tracking URL = http://namenode:8088/proxy/application_1655196875471_0192/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1655196875471_0192
+Hadoop job information for Stage-1: number of mappers: 2792; number of reducers: 1009
+2022-07-03 15:20:42,647 Stage-1 map = 0%,  reduce = 0%
+2022-07-03 15:21:31,620 Stage-1 map = 1%,  reduce = 0%, Cumulative CPU 677.97 sec
+2022-07-03 15:22:25,750 Stage-1 map = 2%,  reduce = 0%, Cumulative CPU 1523.37 sec
+2022-07-03 15:23:08,102 Stage-1 map = 3%,  reduce = 0%, Cumulative CPU 2320.03 sec
+2022-07-03 15:24:09,114 Stage-1 map = 4%,  reduce = 0%, Cumulative CPU 3312.61 sec
+2022-07-03 15:24:55,511 Stage-1 map = 5%,  reduce = 0%, Cumulative CPU 4016.18 sec
+2022-07-03 15:25:37,733 Stage-1 map = 6%,  reduce = 0%, Cumulative CPU 4797.04 sec
+2022-07-03 15:26:34,307 Stage-1 map = 7%,  reduce = 0%, Cumulative CPU 5725.94 sec
+2022-07-03 15:27:27,928 Stage-1 map = 8%,  reduce = 0%, Cumulative CPU 6589.3 sec
+2022-07-03 15:28:12,386 Stage-1 map = 9%,  reduce = 0%, Cumulative CPU 7261.1 sec
+2022-07-03 15:29:04,036 Stage-1 map = 10%,  reduce = 0%, Cumulative CPU 8181.88 sec
+2022-07-03 15:30:00,788 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 9117.91 sec
+2022-07-03 15:30:45,136 Stage-1 map = 12%,  reduce = 0%, Cumulative CPU 9867.18 sec
+2022-07-03 15:31:30,679 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 10659.98 sec
+2022-07-03 15:32:23,309 Stage-1 map = 14%,  reduce = 0%, Cumulative CPU 11536.05 sec
+2022-07-03 15:33:14,104 Stage-1 map = 15%,  reduce = 0%, Cumulative CPU 12376.86 sec
+2022-07-03 15:34:04,698 Stage-1 map = 16%,  reduce = 0%, Cumulative CPU 13186.56 sec
+2022-07-03 15:34:54,442 Stage-1 map = 17%,  reduce = 0%, Cumulative CPU 14069.66 sec
+2022-07-03 15:35:48,223 Stage-1 map = 18%,  reduce = 0%, Cumulative CPU 14961.47 sec
+2022-07-03 15:36:38,870 Stage-1 map = 19%,  reduce = 0%, Cumulative CPU 15781.95 sec
+2022-07-03 15:37:26,465 Stage-1 map = 20%,  reduce = 0%, Cumulative CPU 16574.12 sec
+2022-07-03 15:38:21,304 Stage-1 map = 21%,  reduce = 0%, Cumulative CPU 17450.71 sec
+2022-07-03 15:39:02,824 Stage-1 map = 22%,  reduce = 0%, Cumulative CPU 18193.31 sec
+2022-07-03 15:39:57,699 Stage-1 map = 23%,  reduce = 0%, Cumulative CPU 19077.22 sec
+2022-07-03 15:40:48,583 Stage-1 map = 24%,  reduce = 0%, Cumulative CPU 19892.84 sec
+2022-07-03 15:41:38,283 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 20693.94 sec
+2022-07-03 15:42:31,073 Stage-1 map = 26%,  reduce = 0%, Cumulative CPU 21526.6 sec
+2022-07-03 15:43:23,834 Stage-1 map = 27%,  reduce = 0%, Cumulative CPU 22374.38 sec
+2022-07-03 15:44:08,414 Stage-1 map = 28%,  reduce = 0%, Cumulative CPU 23070.14 sec
+2022-07-03 15:45:04,575 Stage-1 map = 29%,  reduce = 0%, Cumulative CPU 23951.71 sec
+2022-07-03 15:45:54,348 Stage-1 map = 30%,  reduce = 0%, Cumulative CPU 24708.31 sec
+2022-07-03 15:46:41,916 Stage-1 map = 31%,  reduce = 0%, Cumulative CPU 25495.15 sec
+2022-07-03 15:47:34,802 Stage-1 map = 32%,  reduce = 0%, Cumulative CPU 26289.02 sec
+2022-07-03 15:48:25,731 Stage-1 map = 33%,  reduce = 0%, Cumulative CPU 27130.86 sec
+2022-07-03 15:49:22,872 Stage-1 map = 34%,  reduce = 0%, Cumulative CPU 27982.89 sec
+2022-07-03 15:50:16,788 Stage-1 map = 35%,  reduce = 0%, Cumulative CPU 28812.58 sec
+2022-07-03 15:51:13,826 Stage-1 map = 36%,  reduce = 0%, Cumulative CPU 29619.35 sec
+2022-07-03 15:52:01,428 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 30401.92 sec
+2022-07-03 15:52:54,461 Stage-1 map = 38%,  reduce = 0%, Cumulative CPU 31195.95 sec
+2022-07-03 15:53:50,562 Stage-1 map = 39%,  reduce = 0%, Cumulative CPU 32064.08 sec
+2022-07-03 15:54:38,412 Stage-1 map = 40%,  reduce = 0%, Cumulative CPU 32809.32 sec
+2022-07-03 15:55:35,596 Stage-1 map = 41%,  reduce = 0%, Cumulative CPU 33632.76 sec
+2022-07-03 15:56:29,661 Stage-1 map = 42%,  reduce = 0%, Cumulative CPU 34432.92 sec
+2022-07-03 15:57:29,978 Stage-1 map = 43%,  reduce = 0%, Cumulative CPU 35304.09 sec
+2022-07-03 15:58:29,448 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 36111.12 sec
+2022-07-03 15:59:29,775 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 36926.02 sec
+2022-07-03 15:59:35,149 Stage-1 map = 45%,  reduce = 0%, Cumulative CPU 36991.19 sec
+2022-07-03 16:00:33,508 Stage-1 map = 46%,  reduce = 0%, Cumulative CPU 37805.06 sec
+2022-07-03 16:01:30,991 Stage-1 map = 47%,  reduce = 0%, Cumulative CPU 38534.5 sec
+2022-07-03 16:02:28,518 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 39357.32 sec
+2022-07-03 16:03:28,865 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 40115.79 sec
+2022-07-03 16:03:35,140 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 40210.42 sec
+2022-07-03 16:04:35,730 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 41035.3 sec
+2022-07-03 16:04:38,867 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 41089.28 sec
+2022-07-03 16:05:39,494 Stage-1 map = 51%,  reduce = 0%, Cumulative CPU 41867.87 sec
+2022-07-03 16:06:40,136 Stage-1 map = 51%,  reduce = 0%, Cumulative CPU 42675.47 sec
+2022-07-03 16:06:42,208 Stage-1 map = 52%,  reduce = 0%, Cumulative CPU 42687.97 sec
+2022-07-03 16:07:40,897 Stage-1 map = 53%,  reduce = 0%, Cumulative CPU 43557.37 sec
+2022-07-03 16:08:38,298 Stage-1 map = 54%,  reduce = 0%, Cumulative CPU 44302.16 sec
+2022-07-03 16:09:39,075 Stage-1 map = 54%,  reduce = 0%, Cumulative CPU 45040.39 sec
+2022-07-03 16:09:44,348 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 45112.79 sec
+2022-07-03 16:10:44,935 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 45986.97 sec
+2022-07-03 16:10:45,972 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 45991.2 sec
+2022-07-03 16:11:46,580 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 46786.1 sec
+2022-07-03 16:11:48,694 Stage-1 map = 57%,  reduce = 0%, Cumulative CPU 46819.39 sec
+2022-07-03 16:12:49,489 Stage-1 map = 57%,  reduce = 0%, Cumulative CPU 47656.07 sec
+2022-07-03 16:12:53,649 Stage-1 map = 58%,  reduce = 0%, Cumulative CPU 47725.92 sec
+2022-07-03 16:13:50,272 Stage-1 map = 59%,  reduce = 0%, Cumulative CPU 48442.81 sec
+2022-07-03 16:14:50,040 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 49265.03 sec
+2022-07-03 16:15:50,731 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 50083.04 sec
+2022-07-03 16:15:53,859 Stage-1 map = 61%,  reduce = 0%, Cumulative CPU 50124.27 sec
+2022-07-03 16:16:54,494 Stage-1 map = 61%,  reduce = 0%, Cumulative CPU 50886.6 sec
+2022-07-03 16:16:59,709 Stage-1 map = 62%,  reduce = 0%, Cumulative CPU 50970.56 sec
+2022-07-03 16:17:57,432 Stage-1 map = 63%,  reduce = 0%, Cumulative CPU 51745.25 sec
+2022-07-03 16:18:55,131 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 52529.44 sec
+2022-07-03 16:19:55,159 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 53336.88 sec
+2022-07-03 16:19:58,299 Stage-1 map = 65%,  reduce = 0%, Cumulative CPU 53388.54 sec
+2022-07-03 16:20:59,099 Stage-1 map = 65%,  reduce = 0%, Cumulative CPU 54193.1 sec
+2022-07-03 16:21:01,203 Stage-1 map = 66%,  reduce = 0%, Cumulative CPU 54264.15 sec
+2022-07-03 16:21:58,156 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 54949.83 sec
+2022-07-03 16:22:58,180 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 55749.88 sec
+2022-07-03 16:22:59,220 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 55754.72 sec
+2022-07-03 16:24:00,038 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 56589.49 sec
+2022-07-03 16:24:03,170 Stage-1 map = 69%,  reduce = 0%, Cumulative CPU 56645.81 sec
+2022-07-03 16:25:04,146 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 57455.08 sec
+2022-07-03 16:26:05,194 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 58270.23 sec
+2022-07-03 16:26:09,368 Stage-1 map = 71%,  reduce = 0%, Cumulative CPU 58341.1 sec
+2022-07-03 16:27:04,112 Stage-1 map = 72%,  reduce = 0%, Cumulative CPU 59041.04 sec
+2022-07-03 16:28:02,975 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 59873.01 sec
+2022-07-03 16:29:03,890 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 60673.61 sec
+2022-07-03 16:29:04,948 Stage-1 map = 74%,  reduce = 0%, Cumulative CPU 60693.87 sec
+2022-07-03 16:30:05,851 Stage-1 map = 74%,  reduce = 0%, Cumulative CPU 61421.77 sec
+2022-07-03 16:30:12,116 Stage-1 map = 75%,  reduce = 0%, Cumulative CPU 61551.57 sec
+2022-07-03 16:31:08,946 Stage-1 map = 76%,  reduce = 0%, Cumulative CPU 62332.23 sec
+2022-07-03 16:32:07,783 Stage-1 map = 77%,  reduce = 0%, Cumulative CPU 63128.32 sec
+2022-07-03 16:33:07,814 Stage-1 map = 77%,  reduce = 0%, Cumulative CPU 63902.06 sec
+2022-07-03 16:33:10,942 Stage-1 map = 78%,  reduce = 0%, Cumulative CPU 63989.89 sec
+2022-07-03 16:34:11,965 Stage-1 map = 78%,  reduce = 0%, Cumulative CPU 64782.64 sec
+2022-07-03 16:34:13,006 Stage-1 map = 79%,  reduce = 0%, Cumulative CPU 64792.56 sec
+2022-07-03 16:35:07,651 Stage-1 map = 80%,  reduce = 0%, Cumulative CPU 65524.69 sec
+2022-07-03 16:35:41,447 Stage-1 map = 80%,  reduce = 1%, Cumulative CPU 65956.55 sec
+2022-07-03 16:36:16,201 Stage-1 map = 81%,  reduce = 1%, Cumulative CPU 66405.63 sec
+2022-07-03 16:37:12,144 Stage-1 map = 82%,  reduce = 1%, Cumulative CPU 67191.38 sec
+2022-07-03 16:38:12,394 Stage-1 map = 82%,  reduce = 1%, Cumulative CPU 67938.49 sec
+2022-07-03 16:38:17,651 Stage-1 map = 83%,  reduce = 1%, Cumulative CPU 68043.19 sec
+2022-07-03 16:39:18,679 Stage-1 map = 84%,  reduce = 1%, Cumulative CPU 68873.31 sec
+2022-07-03 16:40:17,850 Stage-1 map = 85%,  reduce = 1%, Cumulative CPU 69638.68 sec
+2022-07-03 16:41:17,924 Stage-1 map = 85%,  reduce = 1%, Cumulative CPU 70404.62 sec
+2022-07-03 16:41:24,222 Stage-1 map = 86%,  reduce = 1%, Cumulative CPU 70461.49 sec
+2022-07-03 16:42:24,331 Stage-1 map = 86%,  reduce = 1%, Cumulative CPU 71227.25 sec
+2022-07-03 16:42:26,480 Stage-1 map = 87%,  reduce = 1%, Cumulative CPU 71257.48 sec
+2022-07-03 16:43:26,568 Stage-1 map = 88%,  reduce = 1%, Cumulative CPU 72024.2 sec
+2022-07-03 16:44:27,028 Stage-1 map = 88%,  reduce = 1%, Cumulative CPU 72746.2 sec
+2022-07-03 16:44:33,298 Stage-1 map = 89%,  reduce = 1%, Cumulative CPU 72810.4 sec
+2022-07-03 16:45:33,346 Stage-1 map = 89%,  reduce = 1%, Cumulative CPU 73507.68 sec
+2022-07-03 16:45:42,931 Stage-1 map = 90%,  reduce = 1%, Cumulative CPU 73622.3 sec
+2022-07-03 16:46:43,794 Stage-1 map = 90%,  reduce = 1%, Cumulative CPU 74314.05 sec
+2022-07-03 16:46:54,308 Stage-1 map = 91%,  reduce = 1%, Cumulative CPU 74431.3 sec
+2022-07-03 16:47:54,858 Stage-1 map = 91%,  reduce = 1%, Cumulative CPU 75092.64 sec
+2022-07-03 16:48:02,192 Stage-1 map = 92%,  reduce = 1%, Cumulative CPU 75194.75 sec
+2022-07-03 16:49:02,754 Stage-1 map = 92%,  reduce = 1%, Cumulative CPU 75898.96 sec
+2022-07-03 16:49:09,048 Stage-1 map = 93%,  reduce = 1%, Cumulative CPU 75947.53 sec
+2022-07-03 16:50:09,894 Stage-1 map = 93%,  reduce = 1%, Cumulative CPU 76608.46 sec
+2022-07-03 16:50:18,262 Stage-1 map = 94%,  reduce = 1%, Cumulative CPU 76712.02 sec
+2022-07-03 16:51:18,382 Stage-1 map = 94%,  reduce = 1%, Cumulative CPU 77363.77 sec
+2022-07-03 16:51:32,075 Stage-1 map = 95%,  reduce = 1%, Cumulative CPU 77535.55 sec
+2022-07-03 16:52:32,836 Stage-1 map = 95%,  reduce = 1%, Cumulative CPU 78224.51 sec
+2022-07-03 16:52:33,879 Stage-1 map = 96%,  reduce = 1%, Cumulative CPU 78242.75 sec
+2022-07-03 16:53:34,806 Stage-1 map = 96%,  reduce = 1%, Cumulative CPU 78917.53 sec
+2022-07-03 16:53:46,325 Stage-1 map = 97%,  reduce = 1%, Cumulative CPU 79026.39 sec
+2022-07-03 16:54:47,241 Stage-1 map = 97%,  reduce = 1%, Cumulative CPU 79740.51 sec
+2022-07-03 16:54:50,421 Stage-1 map = 98%,  reduce = 1%, Cumulative CPU 79777.68 sec
+2022-07-03 16:55:50,498 Stage-1 map = 98%,  reduce = 1%, Cumulative CPU 80451.46 sec
+2022-07-03 16:56:01,898 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 80598.85 sec
+2022-07-03 16:57:02,928 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 81300.6 sec
+2022-07-03 16:58:02,983 Stage-1 map = 99%,  reduce = 1%, Cumulative CPU 82003.29 sec
+2022-07-03 16:58:04,041 Stage-1 map = 100%,  reduce = 1%, Cumulative CPU 82008.41 sec
+2022-07-03 16:58:07,290 Stage-1 map = 100%,  reduce = 2%, Cumulative CPU 82031.57 sec
+2022-07-03 16:58:20,066 Stage-1 map = 100%,  reduce = 3%, Cumulative CPU 82274.27 sec
+2022-07-03 16:58:34,953 Stage-1 map = 100%,  reduce = 4%, Cumulative CPU 82601.33 sec
+2022-07-03 16:58:59,136 Stage-1 map = 100%,  reduce = 5%, Cumulative CPU 82793.95 sec
+2022-07-03 16:59:20,208 Stage-1 map = 100%,  reduce = 6%, Cumulative CPU 83038.39 sec
+2022-07-03 16:59:45,177 Stage-1 map = 100%,  reduce = 7%, Cumulative CPU 83447.94 sec
+2022-07-03 17:00:03,813 Stage-1 map = 100%,  reduce = 8%, Cumulative CPU 83729.02 sec
+2022-07-03 17:00:27,196 Stage-1 map = 100%,  reduce = 9%, Cumulative CPU 83974.11 sec
+2022-07-03 17:00:48,404 Stage-1 map = 100%,  reduce = 10%, Cumulative CPU 84315.33 sec
+2022-07-03 17:01:04,865 Stage-1 map = 100%,  reduce = 11%, Cumulative CPU 84585.09 sec
+2022-07-03 17:01:29,734 Stage-1 map = 100%,  reduce = 12%, Cumulative CPU 84900.29 sec
+2022-07-03 17:01:50,944 Stage-1 map = 100%,  reduce = 13%, Cumulative CPU 85169.88 sec
+2022-07-03 17:02:08,226 Stage-1 map = 100%,  reduce = 14%, Cumulative CPU 85495.26 sec
+2022-07-03 17:02:28,540 Stage-1 map = 100%,  reduce = 15%, Cumulative CPU 85805.05 sec
+2022-07-03 17:02:50,368 Stage-1 map = 100%,  reduce = 16%, Cumulative CPU 86040.32 sec
+2022-07-03 17:03:17,504 Stage-1 map = 100%,  reduce = 17%, Cumulative CPU 86311.23 sec
+2022-07-03 17:03:38,061 Stage-1 map = 100%,  reduce = 18%, Cumulative CPU 86692.0 sec
+2022-07-03 17:03:59,322 Stage-1 map = 100%,  reduce = 19%, Cumulative CPU 86977.75 sec
+2022-07-03 17:04:14,970 Stage-1 map = 100%,  reduce = 20%, Cumulative CPU 87192.83 sec
+2022-07-03 17:04:36,612 Stage-1 map = 100%,  reduce = 21%, Cumulative CPU 87493.16 sec
+2022-07-03 17:04:58,368 Stage-1 map = 100%,  reduce = 22%, Cumulative CPU 87796.37 sec
+2022-07-03 17:05:18,302 Stage-1 map = 100%,  reduce = 23%, Cumulative CPU 88100.2 sec
+2022-07-03 17:05:36,285 Stage-1 map = 100%,  reduce = 24%, Cumulative CPU 88383.26 sec
+2022-07-03 17:05:56,320 Stage-1 map = 100%,  reduce = 25%, Cumulative CPU 88679.01 sec
+2022-07-03 17:06:19,514 Stage-1 map = 100%,  reduce = 26%, Cumulative CPU 88974.44 sec
+2022-07-03 17:06:38,435 Stage-1 map = 100%,  reduce = 27%, Cumulative CPU 89203.11 sec
+2022-07-03 17:07:01,056 Stage-1 map = 100%,  reduce = 28%, Cumulative CPU 89563.14 sec
+2022-07-03 17:07:19,317 Stage-1 map = 100%,  reduce = 29%, Cumulative CPU 89898.57 sec
+2022-07-03 17:07:40,281 Stage-1 map = 100%,  reduce = 30%, Cumulative CPU 90150.47 sec
+2022-07-03 17:08:00,948 Stage-1 map = 100%,  reduce = 31%, Cumulative CPU 90431.67 sec
+2022-07-03 17:08:19,828 Stage-1 map = 100%,  reduce = 32%, Cumulative CPU 90747.9 sec
+2022-07-03 17:08:41,095 Stage-1 map = 100%,  reduce = 33%, Cumulative CPU 91059.32 sec
+2022-07-03 17:08:59,827 Stage-1 map = 100%,  reduce = 34%, Cumulative CPU 91313.65 sec
+2022-07-03 17:09:22,352 Stage-1 map = 100%,  reduce = 35%, Cumulative CPU 91605.95 sec
+2022-07-03 17:09:41,060 Stage-1 map = 100%,  reduce = 36%, Cumulative CPU 91964.05 sec
+2022-07-03 17:09:59,892 Stage-1 map = 100%,  reduce = 37%, Cumulative CPU 92232.04 sec
+2022-07-03 17:10:19,976 Stage-1 map = 100%,  reduce = 38%, Cumulative CPU 92491.95 sec
+2022-07-03 17:10:41,488 Stage-1 map = 100%,  reduce = 39%, Cumulative CPU 92791.63 sec
+2022-07-03 17:10:59,941 Stage-1 map = 100%,  reduce = 40%, Cumulative CPU 93111.64 sec
+2022-07-03 17:11:21,766 Stage-1 map = 100%,  reduce = 41%, Cumulative CPU 93410.34 sec
+2022-07-03 17:11:42,934 Stage-1 map = 100%,  reduce = 42%, Cumulative CPU 93671.57 sec
+2022-07-03 17:12:05,287 Stage-1 map = 100%,  reduce = 43%, Cumulative CPU 93975.78 sec
+2022-07-03 17:12:24,219 Stage-1 map = 100%,  reduce = 44%, Cumulative CPU 94274.38 sec
+2022-07-03 17:12:46,022 Stage-1 map = 100%,  reduce = 45%, Cumulative CPU 94568.75 sec
+2022-07-03 17:13:04,496 Stage-1 map = 100%,  reduce = 46%, Cumulative CPU 94806.14 sec
+2022-07-03 17:13:29,193 Stage-1 map = 100%,  reduce = 47%, Cumulative CPU 95110.48 sec
+2022-07-03 17:13:49,313 Stage-1 map = 100%,  reduce = 48%, Cumulative CPU 95417.27 sec
+2022-07-03 17:14:13,058 Stage-1 map = 100%,  reduce = 49%, Cumulative CPU 95700.08 sec
+2022-07-03 17:14:34,716 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 95969.94 sec
+2022-07-03 17:14:56,853 Stage-1 map = 100%,  reduce = 51%, Cumulative CPU 96274.46 sec
+2022-07-03 17:15:16,817 Stage-1 map = 100%,  reduce = 52%, Cumulative CPU 96584.8 sec
+2022-07-03 17:15:36,663 Stage-1 map = 100%,  reduce = 53%, Cumulative CPU 96896.46 sec
+2022-07-03 17:15:53,461 Stage-1 map = 100%,  reduce = 54%, Cumulative CPU 97130.87 sec
+2022-07-03 17:16:17,999 Stage-1 map = 100%,  reduce = 55%, Cumulative CPU 97399.24 sec
+2022-07-03 17:16:40,226 Stage-1 map = 100%,  reduce = 56%, Cumulative CPU 97773.65 sec
+2022-07-03 17:16:58,054 Stage-1 map = 100%,  reduce = 57%, Cumulative CPU 98053.89 sec
+2022-07-03 17:17:20,803 Stage-1 map = 100%,  reduce = 58%, Cumulative CPU 98272.88 sec
+2022-07-03 17:17:48,628 Stage-1 map = 100%,  reduce = 59%, Cumulative CPU 98604.71 sec
+2022-07-03 17:18:04,685 Stage-1 map = 100%,  reduce = 60%, Cumulative CPU 98907.27 sec
+2022-07-03 17:18:28,768 Stage-1 map = 100%,  reduce = 61%, Cumulative CPU 99216.96 sec
+2022-07-03 17:18:48,312 Stage-1 map = 100%,  reduce = 62%, Cumulative CPU 99459.36 sec
+2022-07-03 17:19:06,564 Stage-1 map = 100%,  reduce = 63%, Cumulative CPU 99785.59 sec
+2022-07-03 17:19:27,772 Stage-1 map = 100%,  reduce = 64%, Cumulative CPU 100115.12 sec
+2022-07-03 17:19:47,468 Stage-1 map = 100%,  reduce = 65%, Cumulative CPU 100388.35 sec
+2022-07-03 17:20:11,616 Stage-1 map = 100%,  reduce = 66%, Cumulative CPU 100687.75 sec
+2022-07-03 17:20:27,388 Stage-1 map = 100%,  reduce = 67%, Cumulative CPU 100974.53 sec
+2022-07-03 17:20:50,570 Stage-1 map = 100%,  reduce = 68%, Cumulative CPU 101283.05 sec
+2022-07-03 17:21:07,179 Stage-1 map = 100%,  reduce = 69%, Cumulative CPU 101568.68 sec
+2022-07-03 17:21:29,588 Stage-1 map = 100%,  reduce = 70%, Cumulative CPU 101845.3 sec
+2022-07-03 17:21:50,048 Stage-1 map = 100%,  reduce = 71%, Cumulative CPU 102168.53 sec
+2022-07-03 17:22:07,736 Stage-1 map = 100%,  reduce = 72%, Cumulative CPU 102480.21 sec
+2022-07-03 17:22:29,623 Stage-1 map = 100%,  reduce = 73%, Cumulative CPU 102756.16 sec
+2022-07-03 17:22:50,872 Stage-1 map = 100%,  reduce = 74%, Cumulative CPU 103048.11 sec
+2022-07-03 17:23:07,572 Stage-1 map = 100%,  reduce = 75%, Cumulative CPU 103350.82 sec
+2022-07-03 17:23:27,823 Stage-1 map = 100%,  reduce = 76%, Cumulative CPU 103666.07 sec
+2022-07-03 17:23:46,670 Stage-1 map = 100%,  reduce = 77%, Cumulative CPU 103932.23 sec
+2022-07-03 17:24:08,008 Stage-1 map = 100%,  reduce = 78%, Cumulative CPU 104233.64 sec
+2022-07-03 17:24:28,761 Stage-1 map = 100%,  reduce = 79%, Cumulative CPU 104502.29 sec
+2022-07-03 17:24:52,626 Stage-1 map = 100%,  reduce = 80%, Cumulative CPU 104768.88 sec
+2022-07-03 17:25:11,487 Stage-1 map = 100%,  reduce = 81%, Cumulative CPU 105038.61 sec
+2022-07-03 17:25:33,980 Stage-1 map = 100%,  reduce = 82%, Cumulative CPU 105347.88 sec
+2022-07-03 17:25:54,097 Stage-1 map = 100%,  reduce = 83%, Cumulative CPU 105589.48 sec
+2022-07-03 17:26:17,928 Stage-1 map = 100%,  reduce = 84%, Cumulative CPU 105868.35 sec
+2022-07-03 17:26:37,932 Stage-1 map = 100%,  reduce = 85%, Cumulative CPU 106181.77 sec
+2022-07-03 17:26:59,202 Stage-1 map = 100%,  reduce = 86%, Cumulative CPU 106474.81 sec
+2022-07-03 17:27:18,271 Stage-1 map = 100%,  reduce = 87%, Cumulative CPU 106716.85 sec
+2022-07-03 17:27:39,460 Stage-1 map = 100%,  reduce = 88%, Cumulative CPU 107094.9 sec
+2022-07-03 17:27:57,319 Stage-1 map = 100%,  reduce = 89%, Cumulative CPU 107417.39 sec
+2022-07-03 17:28:19,784 Stage-1 map = 100%,  reduce = 90%, Cumulative CPU 107659.74 sec
+2022-07-03 17:28:39,208 Stage-1 map = 100%,  reduce = 91%, Cumulative CPU 107945.4 sec
+2022-07-03 17:28:58,272 Stage-1 map = 100%,  reduce = 92%, Cumulative CPU 108293.32 sec
+2022-07-03 17:29:19,886 Stage-1 map = 100%,  reduce = 93%, Cumulative CPU 108586.69 sec
+2022-07-03 17:29:40,772 Stage-1 map = 100%,  reduce = 94%, Cumulative CPU 108812.17 sec
+2022-07-03 17:30:03,972 Stage-1 map = 100%,  reduce = 95%, Cumulative CPU 109132.92 sec
+2022-07-03 17:30:20,317 Stage-1 map = 100%,  reduce = 96%, Cumulative CPU 109396.18 sec
+2022-07-03 17:30:44,432 Stage-1 map = 100%,  reduce = 97%, Cumulative CPU 109705.66 sec
+2022-07-03 17:31:01,962 Stage-1 map = 100%,  reduce = 98%, Cumulative CPU 110033.96 sec
+2022-07-03 17:31:22,100 Stage-1 map = 100%,  reduce = 99%, Cumulative CPU 110351.26 sec
+2022-07-03 17:31:59,261 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 110788.18 sec
+MapReduce Total cumulative CPU time: 1 days 6 hours 46 minutes 28 seconds 180 msec
+Ended Job = job_1655196875471_0192
+Moving data to directory /outputs/query/aggregation/aggregation-1024GB-results/hive-result
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 2792  Reduce: 1009   Cumulative CPU: 110788.18 sec   HDFS Read: 749525577490 HDFS Write: 16975647 SUCCESS
+Total MapReduce CPU Time Spent: 1 days 6 hours 46 minutes 28 seconds 180 msec
+OK
+Time taken: 7891.845 seconds
+
+>>> ENDING HIVE AGGREGATION: Sun Jul  3 17:32:02 UTC 2022 (1656869522)
+
+
+>>> DOWNLOADING METRICS - HADOOP CLUSTER
+
+Downloading metrics from datanode1
+Downloading metrics from datanode2
+Downloading metrics from datanode3
+Downloading metrics from datanode4
+Downloading metrics from datanode5
+Downloading metrics from namenode
+
+>>> TREATING METRICS - HADOOP CLUSTER
+
+
+>>> SIMPLIFYING METRICS - HADOOP CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - HIVE OUTPUT
+
+Hive: a24e1c63b750556c997572d970b54c87

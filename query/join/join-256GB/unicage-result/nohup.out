@@ -1,0 +1,136 @@
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/join/join-256GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-256GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-256GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-256GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-256GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-256GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE JOIN: Thu Jun 23 11:23:04 UTC 2022 (1655983384)
+
+
+>>> ENDING UNICAGE JOIN: Thu Jun 23 21:48:39 UTC 2022 (1656020919)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: c2defc40b1dac5166126330c44019947
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE JOIN: Thu Jun 23 21:49:08 UTC 2022 (1656020948)
+
+
+>>> ENDING UNICAGE JOIN: Fri Jun 24 07:51:32 UTC 2022 (1656057092)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: c2defc40b1dac5166126330c44019947
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE JOIN: Fri Jun 24 07:52:01 UTC 2022 (1656057121)
+
+
+>>> ENDING UNICAGE JOIN: Fri Jun 24 18:33:34 UTC 2022 (1656095614)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: c2defc40b1dac5166126330c44019947

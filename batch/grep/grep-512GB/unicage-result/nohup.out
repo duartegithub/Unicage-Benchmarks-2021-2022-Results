@@ -1,0 +1,114 @@
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE GREP: Mon May 30 20:45:35 UTC 2022 (1653943535)
+
+
+>>> ENDING UNICAGE GREP: Mon May 30 20:54:34 UTC 2022 (1653944074)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: f7bc892f7dc27ad67c6a6816622d3781
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE GREP: Mon May 30 20:54:52 UTC 2022 (1653944092)
+
+
+>>> ENDING UNICAGE GREP: Mon May 30 21:03:51 UTC 2022 (1653944631)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: f7bc892f7dc27ad67c6a6816622d3781
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE GREP: Mon May 30 21:04:09 UTC 2022 (1653944649)
+
+
+>>> ENDING UNICAGE GREP: Mon May 30 21:13:07 UTC 2022 (1653945187)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: f7bc892f7dc27ad67c6a6816622d3781

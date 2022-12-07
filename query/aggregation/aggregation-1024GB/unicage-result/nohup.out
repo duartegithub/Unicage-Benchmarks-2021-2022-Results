@@ -1,0 +1,136 @@
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-1024GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-1024GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-1024GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-1024GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-1024GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-1024GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Sun Jul  3 13:36:53 UTC 2022 (1656855413)
+
+
+>>> ENDING UNICAGE AGGREGATION: Sun Jul  3 14:09:45 UTC 2022 (1656857385)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: a24e1c63b750556c997572d970b54c87
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Sun Jul  3 14:10:07 UTC 2022 (1656857407)
+
+
+>>> ENDING UNICAGE AGGREGATION: Sun Jul  3 14:42:59 UTC 2022 (1656859379)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: a24e1c63b750556c997572d970b54c87
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Sun Jul  3 14:43:20 UTC 2022 (1656859400)
+
+
+>>> ENDING UNICAGE AGGREGATION: Sun Jul  3 15:16:10 UTC 2022 (1656861370)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: a24e1c63b750556c997572d970b54c87

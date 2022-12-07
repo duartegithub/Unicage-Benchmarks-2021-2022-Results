@@ -1,0 +1,494 @@
+
+>>> STARTING DATA GENERATION: Mon Aug  8 13:02:03 UTC 2022 (1659963723)
+
+producer1 is starting generation from row number 0
+producer2 is starting generation from row number 448000000
+producer3 is starting generation from row number 896000000
+producer4 is starting generation from row number 1344000000
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Set project main scale factor from -notSet- to 4480
+set XML <property name="SF"> to: 4480.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <schema> config file
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Set project main scale factor from -notSet- to 4480
+set XML <property name="SF"> to: 4480.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <schema> config file
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '4480.0' and will remain unchanged at this value
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Set project main scale factor from -notSet- to 4480
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+set XML <property name="SF"> to: 4480.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <generation> config file
+Loading  <schema> config file
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Set project main scale factor from -notSet- to 4480
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '4480.0' and will remain unchanged at this value
+set XML <property name="SF"> to: 4480.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <schema> config file
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+Loading  <generation> config file
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '4480.0' and will remain unchanged at this value
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '4480.0' and will remain unchanged at this value
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+Loading  <generation> config file
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+Loading  <generation> config file
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+initialized 0h:00m:00s:255ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 448000000 of 448000000
+initialized 0h:00m:00s:246ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 448000000 of 448000000
+initialized 0h:00m:00s:252ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 448000000 of 448000000
+initialized 0h:00m:00s:245ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 448000000 of 448000000
+  finished 1/2 "OS_ORDER"	  in: 0h:02m:03s:90ms size: 12.9 GiB speed: 107.6 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 448000000 of 448000000
+                                                                               
+  finished 1/2 "OS_ORDER"	  in: 0h:02m:05s:105ms size: 12.7 GiB speed: 104.2 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 448000000 of 448000000
+                                                                               
+  finished 1/2 "OS_ORDER"	  in: 0h:02m:10s:700ms size: 13.6 GiB speed: 106.4 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 448000000 of 448000000
+                                                                               
+  finished 1/2 "OS_ORDER"	  in: 0h:02m:13s:446ms size: 13.8 GiB speed: 105.7 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 448000000 of 448000000
+  finished 2/2 "OS_ORDER_ITEM"	  in: 0h:10m:31s:700ms size: 21.3 GiB speed: 34.5 MiB/s
+All work done
+Statistics
+Overall time	0h:12m:36s:923ms
+Generated	34.2 GiB
+Speed		46.3 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:02s:130ms
+  finished 2/2 "OS_ORDER_ITEM"	  in: 0h:11m:03s:677ms size: 21.2 GiB speed: 32.7 MiB/s
+All work done
+Statistics
+Overall time	0h:13m:09s:586ms
+Generated	33.9 GiB
+Speed		44.0 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:00s:802ms
+                                                                               
+  finished 2/2 "OS_ORDER_ITEM"	  in: 0h:11m:01s:843ms size: 21.7 GiB speed: 33.6 MiB/s
+All work done
+                                                                               
+  finished 2/2 "OS_ORDER_ITEM"	  in: 0h:11m:04s:649ms size: 21.6 GiB speed: 33.3 MiB/s
+All work done
+Statistics
+Overall time	0h:13m:15s:512ms
+Generated	35.5 GiB
+Speed		45.7 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:00s:220ms
+Statistics
+Overall time	0h:13m:16s:481ms
+Generated	35.2 GiB
+Speed		45.2 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:01s:128ms
+
+>>> ENDING DATA GENERATION: Mon Aug  8 13:15:21 UTC 2022 (1659964521)
+
+
+>>> CLEANING PREVIOUS INPUTS/OUTPUTS (HDFS)
+
+rm: `/datasets/query/query-128GB': No such file or directory
+rm: `/outputs/query/aggregation/aggregation-128GB-results': No such file or directory
+rm: `/outputs/query/join/join-128GB-results': No such file or directory
+rm: `/outputs/query/select/select-128GB-results': No such file or directory
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 3f11a9f6-bc92-4d9a-ba14-30848a92f37a
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 7a8e3afb-82b5-41fb-875b-edba666321e1
+OK
+Time taken: 0.678 seconds
+OK
+Time taken: 0.017 seconds
+OK
+Time taken: 0.016 seconds
+OK
+Time taken: 0.017 seconds
+OK
+Time taken: 0.016 seconds
+OK
+Time taken: 0.015 seconds
+OK
+Time taken: 0.014 seconds
+OK
+Time taken: 0.015 seconds
+OK
+Time taken: 0.016 seconds
+
+>>> STARTING DATA LOADING (HDFS): Mon Aug  8 13:15:39 UTC 2022 (1659964539)
+
+
+>>> CREATING HIVE TABLES
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 6f2b290b-4031-47ef-a39f-1e85d98efd35
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 093fea99-eb97-4bcd-8944-b6606b4e56dd
+OK
+Time taken: 0.959 seconds
+OK
+Time taken: 0.061 seconds
+Query ID = root_20220808131832_11844f09-696f-4c66-b20c-50f74d6af570
+Total jobs = 3
+Launching Job 1 out of 3
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1658135932618_0066, Tracking URL = http://namenode:8088/proxy/application_1658135932618_0066/
+Kill Command = /usr/local/hadoop//bin/mapred job  -kill job_1658135932618_0066
+Hadoop job information for Stage-1: number of mappers: 343; number of reducers: 0
+2022-08-08 13:18:41,809 Stage-1 map = 0%,  reduce = 0%
+2022-08-08 13:19:15,052 Stage-1 map = 1%,  reduce = 0%, Cumulative CPU 361.65 sec
+2022-08-08 13:19:24,258 Stage-1 map = 5%,  reduce = 0%, Cumulative CPU 556.67 sec
+2022-08-08 13:19:25,285 Stage-1 map = 6%,  reduce = 0%, Cumulative CPU 581.78 sec
+2022-08-08 13:19:37,568 Stage-1 map = 7%,  reduce = 0%, Cumulative CPU 772.93 sec
+2022-08-08 13:19:38,593 Stage-1 map = 8%,  reduce = 0%, Cumulative CPU 778.32 sec
+2022-08-08 13:19:39,614 Stage-1 map = 10%,  reduce = 0%, Cumulative CPU 805.75 sec
+2022-08-08 13:19:40,635 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 821.99 sec
+2022-08-08 13:19:55,991 Stage-1 map = 12%,  reduce = 0%, Cumulative CPU 919.48 sec
+2022-08-08 13:20:05,178 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 1142.22 sec
+2022-08-08 13:20:16,408 Stage-1 map = 14%,  reduce = 0%, Cumulative CPU 1327.63 sec
+2022-08-08 13:20:19,486 Stage-1 map = 16%,  reduce = 0%, Cumulative CPU 1382.1 sec
+2022-08-08 13:20:20,505 Stage-1 map = 17%,  reduce = 0%, Cumulative CPU 1423.28 sec
+2022-08-08 13:20:28,677 Stage-1 map = 18%,  reduce = 0%, Cumulative CPU 1560.52 sec
+2022-08-08 13:20:31,752 Stage-1 map = 19%,  reduce = 0%, Cumulative CPU 1637.7 sec
+2022-08-08 13:20:32,772 Stage-1 map = 22%,  reduce = 0%, Cumulative CPU 1683.82 sec
+2022-08-08 13:20:35,839 Stage-1 map = 23%,  reduce = 0%, Cumulative CPU 1697.14 sec
+2022-08-08 13:20:44,006 Stage-1 map = 24%,  reduce = 0%, Cumulative CPU 1733.71 sec
+2022-08-08 13:21:08,507 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 2167.31 sec
+2022-08-08 13:21:09,530 Stage-1 map = 26%,  reduce = 0%, Cumulative CPU 2190.16 sec
+2022-08-08 13:21:12,596 Stage-1 map = 27%,  reduce = 0%, Cumulative CPU 2243.03 sec
+2022-08-08 13:21:13,616 Stage-1 map = 28%,  reduce = 0%, Cumulative CPU 2266.0 sec
+2022-08-08 13:21:14,640 Stage-1 map = 29%,  reduce = 0%, Cumulative CPU 2291.06 sec
+2022-08-08 13:21:19,739 Stage-1 map = 30%,  reduce = 0%, Cumulative CPU 2382.41 sec
+2022-08-08 13:21:23,826 Stage-1 map = 31%,  reduce = 0%, Cumulative CPU 2459.25 sec
+2022-08-08 13:21:24,854 Stage-1 map = 32%,  reduce = 0%, Cumulative CPU 2498.28 sec
+2022-08-08 13:21:25,882 Stage-1 map = 34%,  reduce = 0%, Cumulative CPU 2514.29 sec
+2022-08-08 13:21:27,928 Stage-1 map = 35%,  reduce = 0%, Cumulative CPU 2536.85 sec
+2022-08-08 13:21:54,506 Stage-1 map = 36%,  reduce = 0%, Cumulative CPU 2891.64 sec
+2022-08-08 13:22:01,642 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 3026.8 sec
+2022-08-08 13:22:03,679 Stage-1 map = 38%,  reduce = 0%, Cumulative CPU 3065.39 sec
+2022-08-08 13:22:04,698 Stage-1 map = 39%,  reduce = 0%, Cumulative CPU 3077.05 sec
+2022-08-08 13:22:05,724 Stage-1 map = 40%,  reduce = 0%, Cumulative CPU 3100.41 sec
+2022-08-08 13:22:06,746 Stage-1 map = 41%,  reduce = 0%, Cumulative CPU 3117.79 sec
+2022-08-08 13:22:11,844 Stage-1 map = 42%,  reduce = 0%, Cumulative CPU 3193.58 sec
+2022-08-08 13:22:17,985 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 3295.43 sec
+2022-08-08 13:22:20,023 Stage-1 map = 46%,  reduce = 0%, Cumulative CPU 3333.89 sec
+2022-08-08 13:22:35,322 Stage-1 map = 47%,  reduce = 0%, Cumulative CPU 3448.37 sec
+2022-08-08 13:22:43,477 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 3667.92 sec
+2022-08-08 13:22:53,693 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 3828.38 sec
+2022-08-08 13:22:57,774 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 3885.94 sec
+2022-08-08 13:22:58,793 Stage-1 map = 51%,  reduce = 0%, Cumulative CPU 3897.45 sec
+2022-08-08 13:22:59,813 Stage-1 map = 52%,  reduce = 0%, Cumulative CPU 3923.44 sec
+2022-08-08 13:23:04,916 Stage-1 map = 53%,  reduce = 0%, Cumulative CPU 4039.07 sec
+2022-08-08 13:23:10,013 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 4145.81 sec
+2022-08-08 13:23:12,051 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 4185.65 sec
+2022-08-08 13:23:13,074 Stage-1 map = 57%,  reduce = 0%, Cumulative CPU 4199.69 sec
+2022-08-08 13:23:14,094 Stage-1 map = 58%,  reduce = 0%, Cumulative CPU 4212.2 sec
+2022-08-08 13:23:23,268 Stage-1 map = 59%,  reduce = 0%, Cumulative CPU 4253.84 sec
+2022-08-08 13:23:45,806 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 4646.97 sec
+2022-08-08 13:23:47,844 Stage-1 map = 61%,  reduce = 0%, Cumulative CPU 4695.23 sec
+2022-08-08 13:23:49,882 Stage-1 map = 62%,  reduce = 0%, Cumulative CPU 4743.75 sec
+2022-08-08 13:23:52,944 Stage-1 map = 63%,  reduce = 0%, Cumulative CPU 4790.15 sec
+2022-08-08 13:23:53,963 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 4816.89 sec
+2022-08-08 13:23:54,983 Stage-1 map = 65%,  reduce = 0%, Cumulative CPU 4847.68 sec
+2022-08-08 13:24:02,116 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 4978.34 sec
+2022-08-08 13:24:04,158 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 4999.14 sec
+2022-08-08 13:24:05,185 Stage-1 map = 69%,  reduce = 0%, Cumulative CPU 5024.97 sec
+2022-08-08 13:24:07,228 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 5036.77 sec
+2022-08-08 13:24:31,738 Stage-1 map = 71%,  reduce = 0%, Cumulative CPU 5379.8 sec
+2022-08-08 13:24:36,836 Stage-1 map = 72%,  reduce = 0%, Cumulative CPU 5465.86 sec
+2022-08-08 13:24:39,894 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 5516.37 sec
+2022-08-08 13:24:41,938 Stage-1 map = 74%,  reduce = 0%, Cumulative CPU 5571.72 sec
+2022-08-08 13:24:42,965 Stage-1 map = 75%,  reduce = 0%, Cumulative CPU 5591.68 sec
+2022-08-08 13:24:45,007 Stage-1 map = 76%,  reduce = 0%, Cumulative CPU 5620.83 sec
+2022-08-08 13:24:48,076 Stage-1 map = 77%,  reduce = 0%, Cumulative CPU 5673.31 sec
+2022-08-08 13:24:53,183 Stage-1 map = 78%,  reduce = 0%, Cumulative CPU 5743.95 sec
+2022-08-08 13:24:56,247 Stage-1 map = 79%,  reduce = 0%, Cumulative CPU 5791.87 sec
+2022-08-08 13:24:57,267 Stage-1 map = 80%,  reduce = 0%, Cumulative CPU 5804.72 sec
+2022-08-08 13:24:59,305 Stage-1 map = 81%,  reduce = 0%, Cumulative CPU 5823.48 sec
+2022-08-08 13:25:13,586 Stage-1 map = 82%,  reduce = 0%, Cumulative CPU 5947.49 sec
+2022-08-08 13:25:21,744 Stage-1 map = 83%,  reduce = 0%, Cumulative CPU 6175.54 sec
+2022-08-08 13:25:28,886 Stage-1 map = 84%,  reduce = 0%, Cumulative CPU 6286.67 sec
+2022-08-08 13:25:32,971 Stage-1 map = 85%,  reduce = 0%, Cumulative CPU 6346.55 sec
+2022-08-08 13:25:35,012 Stage-1 map = 86%,  reduce = 0%, Cumulative CPU 6380.82 sec
+2022-08-08 13:25:37,052 Stage-1 map = 87%,  reduce = 0%, Cumulative CPU 6408.85 sec
+2022-08-08 13:25:38,071 Stage-1 map = 88%,  reduce = 0%, Cumulative CPU 6437.28 sec
+2022-08-08 13:25:46,230 Stage-1 map = 89%,  reduce = 0%, Cumulative CPU 6597.54 sec
+2022-08-08 13:25:48,268 Stage-1 map = 90%,  reduce = 0%, Cumulative CPU 6628.8 sec
+2022-08-08 13:25:49,296 Stage-1 map = 91%,  reduce = 0%, Cumulative CPU 6651.62 sec
+2022-08-08 13:25:50,315 Stage-1 map = 92%,  reduce = 0%, Cumulative CPU 6666.82 sec
+2022-08-08 13:25:52,354 Stage-1 map = 93%,  reduce = 0%, Cumulative CPU 6684.92 sec
+2022-08-08 13:26:00,513 Stage-1 map = 94%,  reduce = 0%, Cumulative CPU 6766.2 sec
+2022-08-08 13:26:07,640 Stage-1 map = 95%,  reduce = 0%, Cumulative CPU 6878.35 sec
+2022-08-08 13:26:11,722 Stage-1 map = 96%,  reduce = 0%, Cumulative CPU 6969.14 sec
+2022-08-08 13:26:14,777 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 7019.6 sec
+2022-08-08 13:26:20,888 Stage-1 map = 98%,  reduce = 0%, Cumulative CPU 7073.16 sec
+2022-08-08 13:26:22,923 Stage-1 map = 99%,  reduce = 0%, Cumulative CPU 7085.83 sec
+2022-08-08 13:26:36,161 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 7141.26 sec
+MapReduce Total cumulative CPU time: 0 days 1 hours 59 minutes 1 seconds 260 msec
+Ended Job = job_1658135932618_0066
+Stage-4 is filtered out by condition resolver.
+Stage-3 is selected by condition resolver.
+Stage-5 is filtered out by condition resolver.
+Launching Job 3 out of 3
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1658135932618_0067, Tracking URL = http://namenode:8088/proxy/application_1658135932618_0067/
+Kill Command = /usr/local/hadoop//bin/mapred job  -kill job_1658135932618_0067
+Hadoop job information for Stage-3: number of mappers: 21; number of reducers: 0
+2022-08-08 13:26:43,675 Stage-3 map = 0%,  reduce = 0%
+2022-08-08 13:27:02,147 Stage-3 map = 5%,  reduce = 0%, Cumulative CPU 114.58 sec
+2022-08-08 13:27:03,167 Stage-3 map = 11%,  reduce = 0%, Cumulative CPU 232.37 sec
+2022-08-08 13:27:08,286 Stage-3 map = 18%,  reduce = 0%, Cumulative CPU 301.48 sec
+2022-08-08 13:27:09,306 Stage-3 map = 25%,  reduce = 0%, Cumulative CPU 349.72 sec
+2022-08-08 13:27:14,421 Stage-3 map = 34%,  reduce = 0%, Cumulative CPU 428.94 sec
+2022-08-08 13:27:15,443 Stage-3 map = 38%,  reduce = 0%, Cumulative CPU 466.18 sec
+2022-08-08 13:27:20,557 Stage-3 map = 48%,  reduce = 0%, Cumulative CPU 553.55 sec
+2022-08-08 13:27:21,577 Stage-3 map = 50%,  reduce = 0%, Cumulative CPU 582.42 sec
+2022-08-08 13:27:26,752 Stage-3 map = 60%,  reduce = 0%, Cumulative CPU 685.89 sec
+2022-08-08 13:27:27,781 Stage-3 map = 62%,  reduce = 0%, Cumulative CPU 697.36 sec
+2022-08-08 13:27:32,881 Stage-3 map = 73%,  reduce = 0%, Cumulative CPU 807.95 sec
+2022-08-08 13:27:38,992 Stage-3 map = 84%,  reduce = 0%, Cumulative CPU 923.82 sec
+2022-08-08 13:27:40,014 Stage-3 map = 85%,  reduce = 0%, Cumulative CPU 929.53 sec
+2022-08-08 13:27:43,069 Stage-3 map = 89%,  reduce = 0%, Cumulative CPU 962.34 sec
+2022-08-08 13:27:44,086 Stage-3 map = 93%,  reduce = 0%, Cumulative CPU 987.44 sec
+2022-08-08 13:27:45,104 Stage-3 map = 97%,  reduce = 0%, Cumulative CPU 1027.15 sec
+2022-08-08 13:27:49,180 Stage-3 map = 99%,  reduce = 0%, Cumulative CPU 1034.08 sec
+2022-08-08 13:27:51,214 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 1044.33 sec
+MapReduce Total cumulative CPU time: 17 minutes 24 seconds 330 msec
+Ended Job = job_1658135932618_0067
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/item_temp_128gb
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 343   Cumulative CPU: 7141.26 sec   HDFS Read: 92169904919 HDFS Write: 5380103084 SUCCESS
+Stage-Stage-3: Map: 21   Cumulative CPU: 1044.33 sec   HDFS Read: 5380155396 HDFS Write: 5380072215 SUCCESS
+Total MapReduce CPU Time Spent: 0 days 2 hours 16 minutes 25 seconds 590 msec
+OK
+Time taken: 560.384 seconds
+
+>>> ENDING DATA LOADING (HDFS): Mon Aug  8 13:27:53 UTC 2022 (1659965273)
+
+
+>>> PRINTING HDFS TREE STRUCTURE FOR GENERATED DATA
+
+HDFS: /datasets/query/query-128GB
+ |-----item
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+ |-----order
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+
+>>> CLEANING PREVIOUS INPUTS/OUTPUTS (UNICAGE)
+
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-128GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-128GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-128GB-results': No such file or directory
+
+>>> STARTING DATA LOADING (UNICAGE): Mon Aug  8 13:27:57 UTC 2022 (1659965277)
+
+
+>>> ENDING DATA LOADING (UNICAGE): Mon Aug  8 13:30:23 UTC 2022 (1659965423)
+
+
+>>> PRINTING UNICAGE TREE STRUCTURE FOR GENERATED DATA
+
+unicageworker1: ~/datav/datasets/query/query-128GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker2: ~/datav/datasets/query/query-128GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker3: ~/datav/datasets/query/query-128GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker4: ~/datav/datasets/query/query-128GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker5: ~/datav/datasets/query/query-128GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+
+>>> CLEANING PRODUCERS LOCALLY
+
+
+>>> COLLECTING METRICS
+

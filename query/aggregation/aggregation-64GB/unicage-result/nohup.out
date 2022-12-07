@@ -1,0 +1,135 @@
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-64GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Wed Jun 22 12:53:20 UTC 2022 (1655902400)
+
+
+>>> ENDING UNICAGE AGGREGATION: Wed Jun 22 12:54:41 UTC 2022 (1655902481)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 61c169965f44408d7a12b12cc3bb0a96
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Wed Jun 22 12:55:00 UTC 2022 (1655902500)
+
+
+>>> ENDING UNICAGE AGGREGATION: Wed Jun 22 12:56:19 UTC 2022 (1655902579)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 61c169965f44408d7a12b12cc3bb0a96
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Wed Jun 22 12:56:38 UTC 2022 (1655902598)
+
+
+>>> ENDING UNICAGE AGGREGATION: Wed Jun 22 12:57:59 UTC 2022 (1655902679)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 61c169965f44408d7a12b12cc3bb0a96

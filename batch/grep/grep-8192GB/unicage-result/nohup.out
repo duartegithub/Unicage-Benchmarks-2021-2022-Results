@@ -1,0 +1,120 @@
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/batch/grep/grep-8192GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/grep/grep-8192GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/grep/grep-8192GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/grep/grep-8192GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/grep/grep-8192GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/grep/grep-8192GB-results/unicage-result/': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE GREP: Thu Jun  2 20:20:35 UTC 2022 (1654201235)
+
+
+>>> ENDING UNICAGE GREP: Thu Jun  2 22:43:31 UTC 2022 (1654209811)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: b4aa7bacec5c1df231bb61cf0315bef8
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE GREP: Thu Jun  2 22:43:55 UTC 2022 (1654209835)
+
+
+>>> ENDING UNICAGE GREP: Fri Jun  3 01:07:06 UTC 2022 (1654218426)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: b4aa7bacec5c1df231bb61cf0315bef8
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE GREP: Fri Jun  3 01:07:31 UTC 2022 (1654218451)
+
+
+>>> ENDING UNICAGE GREP: Fri Jun  3 03:30:26 UTC 2022 (1654227026)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: b4aa7bacec5c1df231bb61cf0315bef8

@@ -1,0 +1,196 @@
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-512GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-512GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-512GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-512GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-512GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-512GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Sat Jul  2 14:02:29 UTC 2022 (1656770549)
+
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+
+>>> ENDING UNICAGE AGGREGATION: Sat Jul  2 14:09:24 UTC 2022 (1656770964)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d41d8cd98f00b204e9800998ecf8427e
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Sat Jul  2 14:09:41 UTC 2022 (1656770981)
+
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+
+>>> ENDING UNICAGE AGGREGATION: Sat Jul  2 14:16:36 UTC 2022 (1656771396)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d41d8cd98f00b204e9800998ecf8427e
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE AGGREGATION: Sat Jul  2 14:16:52 UTC 2022 (1656771412)
+
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4584)[msort] : no more memory.
+Error(4587)[msort] : no more memory.
+
+>>> ENDING UNICAGE AGGREGATION: Sat Jul  2 14:23:46 UTC 2022 (1656771826)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d41d8cd98f00b204e9800998ecf8427e

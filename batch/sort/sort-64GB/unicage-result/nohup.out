@@ -1,0 +1,119 @@
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-64GB-results/unicage-result/': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SORT: Mon Jun  6 01:07:26 UTC 2022 (1654477646)
+
+
+>>> ENDING UNICAGE SORT: Mon Jun  6 01:33:26 UTC 2022 (1654479206)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 1980a08b6b20e0de202ebfd419762f2a
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SORT: Mon Jun  6 02:11:57 UTC 2022 (1654481517)
+
+
+>>> ENDING UNICAGE SORT: Mon Jun  6 02:37:38 UTC 2022 (1654483058)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 1980a08b6b20e0de202ebfd419762f2a
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SORT: Mon Jun  6 03:40:52 UTC 2022 (1654486852)
+
+
+>>> ENDING UNICAGE SORT: Mon Jun  6 04:06:46 UTC 2022 (1654488406)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 1980a08b6b20e0de202ebfd419762f2a

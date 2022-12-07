@@ -1,0 +1,120 @@
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/batch/wordcount/wordcount-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/wordcount/wordcount-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/wordcount/wordcount-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/wordcount/wordcount-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/wordcount/wordcount-64GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/wordcount/wordcount-64GB-results/unicage-result/': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE WORDCOUNT: Mon Jun 13 21:43:56 UTC 2022 (1655156636)
+
+
+>>> ENDING UNICAGE WORDCOUNT: Mon Jun 13 21:49:11 UTC 2022 (1655156951)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: c459e4ff053a84b0ea9f0f9dba75a35e
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE WORDCOUNT: Mon Jun 13 21:49:26 UTC 2022 (1655156966)
+
+
+>>> ENDING UNICAGE WORDCOUNT: Mon Jun 13 21:54:41 UTC 2022 (1655157281)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: c459e4ff053a84b0ea9f0f9dba75a35e
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE WORDCOUNT: Mon Jun 13 21:54:55 UTC 2022 (1655157295)
+
+
+>>> ENDING UNICAGE WORDCOUNT: Mon Jun 13 22:00:09 UTC 2022 (1655157609)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: c459e4ff053a84b0ea9f0f9dba75a35e

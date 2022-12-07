@@ -1,0 +1,135 @@
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/': No such file or directory
+rm: cannot remove '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SORT: Sun Jun 12 15:13:23 UTC 2022 (1655046803)
+
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+
+>>> ENDING UNICAGE SORT: Sun Jun 12 15:57:04 UTC 2022 (1655049424)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d41d8cd98f00b204e9800998ecf8427e
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SORT: Sun Jun 12 15:57:25 UTC 2022 (1655049445)
+
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+
+>>> ENDING UNICAGE SORT: Sun Jun 12 16:40:56 UTC 2022 (1655052056)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d41d8cd98f00b204e9800998ecf8427e
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - HADOOP CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SORT: Sun Jun 12 16:41:18 UTC 2022 (1655052078)
+
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+Error(4271)[dmerge] : file '/root/datav/outputs/batch/sort/sort-512GB-results/unicage-result/sort.997' not found.
+
+>>> ENDING UNICAGE SORT: Sun Jun 12 17:24:48 UTC 2022 (1655054688)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d41d8cd98f00b204e9800998ecf8427e

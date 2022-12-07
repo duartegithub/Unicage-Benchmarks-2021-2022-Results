@@ -1,0 +1,158 @@
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/join/join-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-64GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-64GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE JOIN: Wed Jun 22 13:08:13 UTC 2022 (1655903293)
+
+Warning: Permanently added 'unicageworker1,192.168.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker1,192.168.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker1,192.168.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker1,192.168.0.28' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker2,192.168.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker2,192.168.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker2,192.168.0.33' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker3,192.168.0.5' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker3,192.168.0.5' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker3,192.168.0.5' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker3,192.168.0.5' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker4,192.168.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker4,192.168.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker4,192.168.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker4,192.168.0.31' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker5,192.168.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker5,192.168.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker5,192.168.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageworker5,192.168.0.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageleader,192.168.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageleader,192.168.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageleader,192.168.0.27' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'unicageleader,192.168.0.27' (ECDSA) to the list of known hosts.
+
+>>> ENDING UNICAGE JOIN: Wed Jun 22 14:45:19 UTC 2022 (1655909119)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 579d93cd8b1d84969e0e8f0d39d820a3
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE JOIN: Wed Jun 22 14:45:37 UTC 2022 (1655909137)
+
+
+>>> ENDING UNICAGE JOIN: Wed Jun 22 16:24:16 UTC 2022 (1655915056)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 579d93cd8b1d84969e0e8f0d39d820a3
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE JOIN: Wed Jun 22 16:24:34 UTC 2022 (1655915074)
+
+
+>>> ENDING UNICAGE JOIN: Wed Jun 22 18:05:04 UTC 2022 (1655921104)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: 579d93cd8b1d84969e0e8f0d39d820a3

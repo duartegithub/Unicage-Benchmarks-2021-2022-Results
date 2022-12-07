@@ -1,0 +1,526 @@
+
+>>> STARTING DATA GENERATION: Sun Jul 17 01:42:49 UTC 2022 (1658022169)
+
+producer1 is starting generation from row number 0
+producer2 is starting generation from row number 28672000000
+producer3 is starting generation from row number 57344000000
+producer4 is starting generation from row number 86016000000
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+Change 'BENCHMARK_OUTPUT_SORTINGCACHE_IO_DISABLED' from false to: false
+Change 'SELF_MONITORING_HUMANREADABLE' from false to: false
+Change 'SELF_MONITORING_ENABLED' from false to: true
+Change 'GENERATION_STATISTICS_TO_FILE' from false to: true
+Change 'MEMORY_CHECK_RESTART_PROMT_ENABLED' from true to: true
+Change 'GENERATION_PROGRESS_UPDATE_INTERVALL' from 1000 to: 20000
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Set project main scale factor from -notSet- to 286720
+set XML <property name="SF"> to: 286720.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <schema> config file
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '286720.0' and will remain unchanged at this value
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+Loading  <generation> config file
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+initialized 0h:00m:00s:264ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 28672000000 of 28672000000
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Set project main scale factor from -notSet- to 286720
+set XML <property name="SF"> to: 286720.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <schema> config file
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Set project main scale factor from -notSet- to 286720
+set XML <property name="SF"> to: 286720.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <schema> config file
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '286720.0' and will remain unchanged at this value
+21
+23
+4
+################################################################################
+                     PDGF_Demo(single cpu) v3.0_SVNrev88_b4
+                       Parallel Data Generation Framework
+    by: Frank M., Danisch M., Rabl T. http://www.paralleldatageneration.org
+################################################################################
+for a command overview start with commandline parameter: -help
+or type "help" in the built in shell: PDGF:> 
+
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+Loading  <generation> config file
+Set project main scale factor from -notSet- to 286720
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+set XML <property name="SF"> to: 286720.0
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-schema_cluster.xml
+Loading  <schema> config file
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '286720.0' and will remain unchanged at this value
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+Loading  <generation> config file
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+12: XML <property name="SF">5.0E7 was already defined in config file or is manually overridden by a user set commandline argument. Currently assigned value: '286720.0' and will remain unchanged at this value
+Loading sucessfull.
+
+Loading cfg file: /root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/config/demo-generation_cluster.xml
+Loading  <generation> config file
+Loading sucessfull.
+All required config files are loaded.
+Initializing system...
+initialized 0h:00m:00s:263ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 28672000000 of 28672000000
+initialized 0h:00m:00s:254ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 28672000000 of 28672000000
+initialized 0h:00m:00s:256ms
+Starting data generation proccess...
+
+generating 1/2 "OS_ORDER"	  rows: 28672000000 of 28672000000
+  finished 1/2 "OS_ORDER"	  in: 2h:17m:24s:477ms size: 934.6 GiB speed: 116.1 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 28672000000 of 28672000000
+  finished 1/2 "OS_ORDER"	  in: 2h:19m:45s:455ms size: 913.9 GiB speed: 111.6 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 28672000000 of 28672000000
+  finished 1/2 "OS_ORDER"	  in: 2h:20m:37s:639ms size: 934.6 GiB speed: 113.4 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 28672000000 of 28672000000
+  finished 1/2 "OS_ORDER"	  in: 2h:25m:17s:645ms size: 962.0 GiB speed: 113.0 MiB/s
+
+generating 2/2 "OS_ORDER_ITEM"	  rows: 28672000000 of 28672000000
+  finished 2/2 "OS_ORDER_ITEM"	  in: 11h:14m:39s:352ms size: 1.4 TiB speed: 35.8 MiB/s
+All work done
+Statistics
+Overall time	13h:32m:04s:86ms
+Generated	2.3 TiB
+Speed		49.4 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:00s:256ms
+  finished 2/2 "OS_ORDER_ITEM"	  in: 11h:43m:09s:504ms size: 1.4 TiB speed: 34.1 MiB/s
+All work done
+Statistics
+Overall time	14h:02m:55s:85ms
+Generated	2.3 TiB
+Speed		47.0 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:00s:127ms
+  finished 2/2 "OS_ORDER_ITEM"	  in: 11h:43m:24s:261ms size: 1.4 TiB speed: 34.4 MiB/s
+All work done
+Statistics
+Overall time	14h:04m:01s:911ms
+Generated	2.3 TiB
+Speed		47.6 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:00s:34ms
+  finished 2/2 "OS_ORDER_ITEM"	  in: 11h:54m:10s:176ms size: 1.4 TiB speed: 34.2 MiB/s
+All work done
+Statistics
+Overall time	14h:19m:28s:137ms
+Generated	2.3 TiB
+Speed		47.5 MiB/s
+
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/GenerationStatistics_1.csv
+Node 1. logged detailed processing statistics to file:/root/implementation/BigDataGeneratorSuite/Table_datagen/e-com/logs/TableGenerationStatistics_1.csv
+Time to stop and flush everything: 0h:00m:00s:319ms
+
+>>> ENDING DATA GENERATION: Sun Jul 17 16:02:20 UTC 2022 (1658073740)
+
+
+>>> CLEANING PREVIOUS INPUTS/OUTPUTS (HDFS)
+
+rm: `/datasets/query/query-8192GB': No such file or directory
+rm: `/outputs/query/aggregation/aggregation-8192GB-results': No such file or directory
+rm: `/outputs/query/join/join-8192GB-results': No such file or directory
+rm: `/outputs/query/select/select-8192GB-results': No such file or directory
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 44948608-4384-42e3-847a-794440745159
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = b489473f-5d2b-47ef-853d-1a9f359a38df
+OK
+Time taken: 0.647 seconds
+OK
+Time taken: 0.015 seconds
+OK
+Time taken: 0.015 seconds
+OK
+Time taken: 0.015 seconds
+OK
+Time taken: 0.018 seconds
+OK
+Time taken: 0.016 seconds
+OK
+Time taken: 0.018 seconds
+OK
+Time taken: 0.015 seconds
+OK
+Time taken: 0.017 seconds
+
+>>> STARTING DATA LOADING (HDFS): Sun Jul 17 16:02:39 UTC 2022 (1658073759)
+
+2022-07-17 17:59:17,862 WARN hdfs.DataStreamer: DataStreamer Exception
+org.apache.hadoop.ipc.RemoteException(java.io.IOException): File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+	at org.apache.hadoop.hdfs.server.namenode.FSDirWriteFileOp.validateAddBlock(FSDirWriteFileOp.java:186)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:2930)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.addBlock(NameNodeRpcServer.java:915)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.addBlock(ClientNamenodeProtocolServerSideTranslatorPB.java:593)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:600)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:568)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:552)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1093)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1035)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:963)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2966)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1573)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1519)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1416)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:242)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:129)
+	at com.sun.proxy.$Proxy9.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.addBlock(ClientNamenodeProtocolTranslatorPB.java:530)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy10.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSOutputStream.addBlock(DFSOutputStream.java:1084)
+	at org.apache.hadoop.hdfs.DataStreamer.locateFollowingBlock(DataStreamer.java:1898)
+	at org.apache.hadoop.hdfs.DataStreamer.nextBlockOutputStream(DataStreamer.java:1700)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:707)
+put: File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+2022-07-17 17:59:47,010 WARN hdfs.DataStreamer: DataStreamer Exception
+org.apache.hadoop.ipc.RemoteException(java.io.IOException): File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+	at org.apache.hadoop.hdfs.server.namenode.FSDirWriteFileOp.validateAddBlock(FSDirWriteFileOp.java:186)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:2930)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.addBlock(NameNodeRpcServer.java:915)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.addBlock(ClientNamenodeProtocolServerSideTranslatorPB.java:593)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:600)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:568)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:552)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1093)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1035)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:963)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2966)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1573)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1519)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1416)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:242)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:129)
+	at com.sun.proxy.$Proxy9.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.addBlock(ClientNamenodeProtocolTranslatorPB.java:530)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy10.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSOutputStream.addBlock(DFSOutputStream.java:1084)
+	at org.apache.hadoop.hdfs.DataStreamer.locateFollowingBlock(DataStreamer.java:1898)
+	at org.apache.hadoop.hdfs.DataStreamer.nextBlockOutputStream(DataStreamer.java:1700)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:707)
+put: File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+2022-07-17 17:59:48,366 WARN hdfs.DataStreamer: DataStreamer Exception
+org.apache.hadoop.ipc.RemoteException(java.io.IOException): File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+	at org.apache.hadoop.hdfs.server.namenode.FSDirWriteFileOp.validateAddBlock(FSDirWriteFileOp.java:186)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:2930)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.addBlock(NameNodeRpcServer.java:915)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.addBlock(ClientNamenodeProtocolServerSideTranslatorPB.java:593)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:600)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:568)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:552)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1093)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1035)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:963)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2966)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1573)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1519)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1416)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:242)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:129)
+	at com.sun.proxy.$Proxy9.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.addBlock(ClientNamenodeProtocolTranslatorPB.java:530)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy10.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSOutputStream.addBlock(DFSOutputStream.java:1084)
+	at org.apache.hadoop.hdfs.DataStreamer.locateFollowingBlock(DataStreamer.java:1898)
+	at org.apache.hadoop.hdfs.DataStreamer.nextBlockOutputStream(DataStreamer.java:1700)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:707)
+put: File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+2022-07-17 18:00:02,116 WARN hdfs.DataStreamer: DataStreamer Exception
+org.apache.hadoop.ipc.RemoteException(java.io.IOException): File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+	at org.apache.hadoop.hdfs.server.namenode.FSDirWriteFileOp.validateAddBlock(FSDirWriteFileOp.java:186)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:2930)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.addBlock(NameNodeRpcServer.java:915)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.addBlock(ClientNamenodeProtocolServerSideTranslatorPB.java:593)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:600)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:568)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine2.java:552)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1093)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1035)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:963)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2966)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1573)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1519)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1416)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:242)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine2$Invoker.invoke(ProtobufRpcEngine2.java:129)
+	at com.sun.proxy.$Proxy9.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.addBlock(ClientNamenodeProtocolTranslatorPB.java:530)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy10.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSOutputStream.addBlock(DFSOutputStream.java:1084)
+	at org.apache.hadoop.hdfs.DataStreamer.locateFollowingBlock(DataStreamer.java:1898)
+	at org.apache.hadoop.hdfs.DataStreamer.nextBlockOutputStream(DataStreamer.java:1700)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:707)
+put: File has reached the limit on maximum number of blocks (dfs.namenode.fs-limits.max-blocks-per-file): 10000 >= 10000
+
+>>> CREATING HIVE TABLES
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 56ed6553-6e1d-4a9b-a71b-060fb5b90d88
+
+Logging initialized using configuration in jar:file:/usr/local/hive/lib/hive-common-3.1.2.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 44c9dfa7-57bd-4110-b668-60a2834a9ac3
+OK
+Time taken: 0.939 seconds
+OK
+Time taken: 0.058 seconds
+Query ID = root_20220717192616_f3ca5f3d-aa73-4552-bf26-3c368e219924
+Total jobs = 3
+Launching Job 1 out of 3
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1655196875471_0298, Tracking URL = http://namenode:8088/proxy/application_1655196875471_0298/
+Kill Command = /usr/local/hadoop//bin/mapred job  -kill job_1655196875471_0298
+Hadoop job information for Stage-1: number of mappers: 0; number of reducers: 0
+2022-07-17 19:26:28,664 Stage-1 map = 0%,  reduce = 0%
+Ended Job = job_1655196875471_0298
+Stage-4 is selected by condition resolver.
+Stage-3 is filtered out by condition resolver.
+Stage-5 is filtered out by condition resolver.
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/.hive-staging_hive_2022-07-17_19-26-16_902_8479136779395914739-1/-ext-10002
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/item_temp_8192gb
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 0 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Time taken: 14.467 seconds
+
+>>> ENDING DATA LOADING (HDFS): Sun Jul 17 19:26:31 UTC 2022 (1658085991)
+
+
+>>> PRINTING HDFS TREE STRUCTURE FOR GENERATED DATA
+
+HDFS: /datasets/query/query-8192GB
+ |-----item
+ |-----order
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+
+>>> CLEANING PREVIOUS INPUTS/OUTPUTS (UNICAGE)
+
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/datasets/query/query-8192GB': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/aggregation/aggregation-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/join/join-8192GB-results': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-8192GB-results': No such file or directory
+
+>>> STARTING DATA LOADING (UNICAGE): Sun Jul 17 19:26:37 UTC 2022 (1658085997)
+
+
+>>> ENDING DATA LOADING (UNICAGE): Sun Jul 17 23:04:08 UTC 2022 (1658099048)
+
+
+>>> PRINTING UNICAGE TREE STRUCTURE FOR GENERATED DATA
+
+unicageworker1: ~/datav/datasets/query/query-8192GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker2: ~/datav/datasets/query/query-8192GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker3: ~/datav/datasets/query/query-8192GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker4: ~/datav/datasets/query/query-8192GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+unicageworker5: ~/datav/datasets/query/query-8192GB
+ |-------OS_ORDER-producer1.txt
+ |-------OS_ORDER-producer2.txt
+ |-------OS_ORDER-producer3.txt
+ |-------OS_ORDER-producer4.txt
+ |-------OS_ORDER_ITEM-producer1.txt
+ |-------OS_ORDER_ITEM-producer2.txt
+ |-------OS_ORDER_ITEM-producer3.txt
+ |-------OS_ORDER_ITEM-producer4.txt
+
+>>> CLEANING PRODUCERS LOCALLY
+
+
+>>> COLLECTING METRICS
+

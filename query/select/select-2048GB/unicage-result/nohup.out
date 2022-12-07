@@ -1,0 +1,146 @@
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> BENCHMARK-MODE: THE WORKLOAD WILL RUN 3 TIMES
+
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SELECT: Wed Jul  6 17:11:46 UTC 2022 (1657127506)
+
+
+>>> ENDING UNICAGE SELECT: Wed Jul  6 17:36:50 UTC 2022 (1657129010)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d7d06927579881c912e4d34dad7c86e7
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SELECT: Wed Jul  6 17:37:18 UTC 2022 (1657129038)
+
+
+>>> ENDING UNICAGE SELECT: Wed Jul  6 18:02:23 UTC 2022 (1657130543)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d7d06927579881c912e4d34dad7c86e7
+
+>>> CLEANING PREVIOUS OUTPUTS
+
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+rm: cannot remove '/root/datav/outputs/query/select/select-2048GB-results/unicage-result': No such file or directory
+
+>>> PREPARING FOR BENCHMARK - UNICAGE CLUSTER
+
+Preparing unicageworker1 for the benchmark
+Preparing unicageworker2 for the benchmark
+Preparing unicageworker3 for the benchmark
+Preparing unicageworker4 for the benchmark
+Preparing unicageworker5 for the benchmark
+Preparing unicageleader for the benchmark
+
+>>> STARTING UNICAGE SELECT: Wed Jul  6 18:02:51 UTC 2022 (1657130571)
+
+
+>>> ENDING UNICAGE SELECT: Wed Jul  6 18:27:55 UTC 2022 (1657132075)
+
+
+>>> DOWNLOADING METRICS - UNICAGE CLUSTER
+
+Downloading metrics from unicageworker1
+Downloading metrics from unicageworker2
+Downloading metrics from unicageworker3
+Downloading metrics from unicageworker4
+Downloading metrics from unicageworker5
+Downloading metrics from unicageleader
+
+>>> TREATING METRICS - UNICAGE CLUSTER
+
+
+>>> SIMPLIFYING METRICS - UNICAGE CLUSTER
+
+Select workload
+1. aggregation Workload
+2. join Workload
+3. select Workload
+
+>>> PREPARING FOR VERIFICATION - UNICAGE OUTPUT
+
+Unicage: d7d06927579881c912e4d34dad7c86e7
